@@ -26,9 +26,9 @@ Google [Forms](https://forms.google.com/)/[Sheets](https://sheets.google.com/) -
 
 ## User Flows
 
-# User Subscription Flow
+### User Subscription Flow
 ![alt text](https://github.com/FarzanAkhtar1/build-your-own-newsletter/blob/main/UML%20Diagrams/Subscribe%20flow.jpg)
 
-# Daily Email Flow
+### Daily Email Flow
 ![alt text](https://github.com/FarzanAkhtar1/build-your-own-newsletter/blob/main/UML%20Diagrams/Email%20flow.jpg)
 
