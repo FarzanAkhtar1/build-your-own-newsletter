@@ -31,7 +31,18 @@ One of the goals of this project was to minimise the cost associated with the pr
 3. Large scale - Same as MVP but for 1000-3000 subscribers
 4. Alternative - This would leverage Carrd Pro and potentially have higher scaling for lower costs
 
-Costs assume I use the annual plans which are cheaper than the monthly plans
+All costs are on a monthly basis and  assume I use the annual plans which are cheaper than the monthly plans.
+
+| | MVP (100 subs) | Validated (100-1000) | Large scale (1000-3000) | Alternative (100-3000) |
+| --- | --- | --- | --- | --- |
+| Carrd | | | | |
+| ConverKit | | | | |
+| Google Forms/Sheets | | | | |
+| SendGrid | | | | |
+| Azure Functions | | | | |
+| (Optional) Domain | | | | |
+| Total (GBP) | | | | |
+| Total (USD) | | | | |
 
 ### MVP (100 subs)
 - Carrd Pro Standard - £1.35/month ($1.60/month)
@@ -76,8 +87,10 @@ Total: £20.35-£35.25/month ($24.70-$42.95/month)
 ## User Flows
 
 ### User Subscription Flow
+Flow outlining how parts of the system will interact when the user is subscribing to the newsletter
 ![alt text](https://github.com/FarzanAkhtar1/build-your-own-newsletter/blob/main/UML%20Diagrams/Subscribe%20flow.jpg)
 
 ### Daily Email Flow
+Flow outlining how parts of the system will interact when sending out the daily email
 ![alt text](https://github.com/FarzanAkhtar1/build-your-own-newsletter/blob/main/UML%20Diagrams/Email%20flow.jpg)
 
