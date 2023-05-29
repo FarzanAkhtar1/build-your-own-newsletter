@@ -35,14 +35,14 @@ All costs are on a monthly basis and  assume I use the annual plans which are ch
 
 | | MVP (100 subs) | Validated (100-1000) | Large scale (1000-3000) | Alternative (100-3000) |
 | --- | --- | --- | --- | --- |
-| Carrd | | | | |
-| ConverKit | | | | |
-| Google Forms/Sheets | | | | |
-| SendGrid | | | | |
-| Azure Functions | | | | |
-| (Optional) Domain | | | | |
-| Total (GBP) | | | | |
-| Total (USD) | | | | |
+| Carrd | £1.35 ($1.60) | £1.35 ($1.60) | £1.35 ($1.60) | £3.35 ($4.10) |
+| ConverKit | Free | Free | £33.50 ($41.00) | N/A |
+| Google Forms/Sheets | Free | Free | Free | Free |
+| SendGrid | Free | £16.50 ($19.95) | £28.90 ($34.95) | £16.50-£28.90 ($19.95-$34.95) |
+| Azure Functions | £0.50 ($0.65) | £0.50 ($0.65) | £0.50 ($0.65) | £0.50 ($0.65) |
+| (Optional) Domain | £2.50 ($3.25) | £2.50 ($3.25) | £2.50 ($3.25) | £2.50 ($3.25) |
+| Total (GBP) | £1.85-£4.35 | £18.35-£20.85 | £64.25-£66.75 | £20.35-£35.25 |
+| Total (USD) | $2.25-$5.50 | $22.20-$25.45 | $78.20-$81.45 | $24.70-$42.95 |
 
 ### MVP (100 subs)
 - Carrd Pro Standard - £1.35/month ($1.60/month)
