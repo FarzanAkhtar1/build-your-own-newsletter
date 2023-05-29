@@ -34,43 +34,43 @@ One of the goals of this project was to minimise the cost associated with the pr
 Costs assume I use the annual plans which are cheaper than the monthly plans
 
 ### MVP (100 subs)
-Carrd Pro Standard - £1.35/month ($1.60/month)
-ConvertKit - Free
-Google Forms/Sheets - Free
-SendGrid - Free
-Azure Functions - £0.50/month ($0.65/month) - Liberal estimate
-(Optional) Domain - £2.50/month ($3.25/month)
+- Carrd Pro Standard - £1.35/month ($1.60/month)
+- ConvertKit - Free
+- Google Forms/Sheets - Free
+- SendGrid - Free
+- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate
+- (Optional) Domain - £2.50/month ($3.25/month)
 
-Total - £1.85-£4.35/month ($2.25-$5.50/month)
+Total: £1.85-£4.35/month ($2.25-$5.50/month)
 
 ### Validated (100-1000 subs)
-Carrd Pro Standard - £1.35/month ($1.60/month)
-ConvertKit - Free
-Google Forms/Sheets - Free
-SendGrid - £16.50/month ($19.95/month)
-Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
-(Optional) Domain - £2.50/month ($3.25/month)
+- Carrd Pro Standard - £1.35/month ($1.60/month)
+- ConvertKit - Free
+- Google Forms/Sheets - Free
+- SendGrid - £16.50/month ($19.95/month)
+- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
+- (Optional) Domain - £2.50/month ($3.25/month)
 
-Total - £18.35-£20.85/month ($22.20-$25.45/month)
+Total: £18.35-£20.85/month ($22.20-$25.45/month)
 
 ### Large scale (1000-3000 subs)
-Carrd Pro Standard - £1.35/month ($1.60/month)
-ConvertKit - £33.50/month ($41/month)
-Google Forms/Sheets - Free
-SendGrid - £28.90/month ($34.95/month)
-Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
-(Optional) Domain - £2.50/month ($3.25/month)
+- Carrd Pro Standard - £1.35/month ($1.60/month)
+- ConvertKit - £33.50/month ($41/month)
+- Google Forms/Sheets - Free
+- SendGrid - £28.90/month ($34.95/month)
+- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
+- (Optional) Domain - £2.50/month ($3.25/month)
 
-Total - £64.25-£66.75/month ($78.20-$81.45/month)
+Total: £64.25-£66.75/month ($78.20-$81.45/month)
 
 ### Alternative (100-3000 subs)
-Carrd Pro Plus - £3.35/month ($4.10/month)
-Google Forms/Sheets - Free
-SendGrid - £16.50-£28.90/month ($19.95-$34.95/month)
-Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
-(Optional) Domain - £2.50/month ($3.25/month)
+- Carrd Pro Plus - £3.35/month ($4.10/month)
+- Google Forms/Sheets - Free
+- SendGrid - £16.50-£28.90/month ($19.95-$34.95/month)
+- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
+- (Optional) Domain - £2.50/month ($3.25/month)
 
-Total - £20.35-£35.25/month ($24.70-$42.95/month)
+Total: £20.35-£35.25/month ($24.70-$42.95/month)
 
 
 ## User Flows
