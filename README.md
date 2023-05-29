@@ -41,48 +41,8 @@ All costs are on a monthly basis and  assume I use the annual plans which are ch
 | SendGrid | Free | £16.50 ($19.95) | £28.90 ($34.95) | £16.50-£28.90 ($19.95-$34.95) |
 | Azure Functions | £0.50 ($0.65) | £0.50 ($0.65) | £0.50 ($0.65) | £0.50 ($0.65) |
 | (Optional) Domain | £2.50 ($3.25) | £2.50 ($3.25) | £2.50 ($3.25) | £2.50 ($3.25) |
-| Total (GBP) | £1.85-£4.35 | £18.35-£20.85 | £64.25-£66.75 | £20.35-£35.25 |
-| Total (USD) | $2.25-$5.50 | $22.20-$25.45 | $78.20-$81.45 | $24.70-$42.95 |
-
-### MVP (100 subs)
-- Carrd Pro Standard - £1.35/month ($1.60/month)
-- ConvertKit - Free
-- Google Forms/Sheets - Free
-- SendGrid - Free
-- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate
-- (Optional) Domain - £2.50/month ($3.25/month)
-
-Total: £1.85-£4.35/month ($2.25-$5.50/month)
-
-### Validated (100-1000 subs)
-- Carrd Pro Standard - £1.35/month ($1.60/month)
-- ConvertKit - Free
-- Google Forms/Sheets - Free
-- SendGrid - £16.50/month ($19.95/month)
-- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
-- (Optional) Domain - £2.50/month ($3.25/month)
-
-Total: £18.35-£20.85/month ($22.20-$25.45/month)
-
-### Large scale (1000-3000 subs)
-- Carrd Pro Standard - £1.35/month ($1.60/month)
-- ConvertKit - £33.50/month ($41/month)
-- Google Forms/Sheets - Free
-- SendGrid - £28.90/month ($34.95/month)
-- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
-- (Optional) Domain - £2.50/month ($3.25/month)
-
-Total: £64.25-£66.75/month ($78.20-$81.45/month)
-
-### Alternative (100-3000 subs)
-- Carrd Pro Plus - £3.35/month ($4.10/month)
-- Google Forms/Sheets - Free
-- SendGrid - £16.50-£28.90/month ($19.95-$34.95/month)
-- Azure Functions - £0.50/month ($0.65/month) - Liberal estimate should still apply
-- (Optional) Domain - £2.50/month ($3.25/month)
-
-Total: £20.35-£35.25/month ($24.70-$42.95/month)
-
+| *Total (GBP)* | £1.85-£4.35 | £18.35-£20.85 | £64.25-£66.75 | £20.35-£35.25 |
+| *Total (USD)* | $2.25-$5.50 | $22.20-$25.45 | $78.20-$81.45 | $24.70-$42.95 |
 
 ## User Flows
 
