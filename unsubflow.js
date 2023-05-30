@@ -2,7 +2,7 @@ require('dotenv').config();
 const fetch = require('node-fetch');
 console.log("hello world")
 
-async function getJSON(url) {
+async function getJSONConvertKit(url) {
     try {
       const absoluteURL = new URL(url, process.env.UNSUBSCRIBE_FORM);
       const response = await fetch(absoluteURL.href);
@@ -16,12 +16,29 @@ async function getJSON(url) {
     }
   }
 
+async function getJSONGoogleSheet(url) {
+    try {
+      const absoluteURL = new URL(url);
+      const response = await fetch(absoluteURL.href);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      const data = ((await response.json())['values']).splice(1);
+      //data = data['values'].splice(1);
+      //console.log(data)
+      return data;
+    } catch (error) {
+      console.error('Error:', error);
+    }
+}  
+
+
 async function getUnsubDataFromGoogleSheets(){
     //GET UNSUB DATA FROM GSHEETS
     unsubUserData = ""
     try {
       const unsubUrl = process.env.UNSUBSCRIBE_FORM;
-      const data = await getJSON(unsubUrl);
+      const data = await getJSONGoogleSheet(unsubUrl);
       // Handle the JSON data here
       unsubUserData = data; //UNSUB DATA IS STORED IN unsubUserData
     } catch (error) {
@@ -29,12 +46,10 @@ async function getUnsubDataFromGoogleSheets(){
       console.error('Error:', error);
     }
 
-	//List holding all user email and unsub time, will be the return of this function
-	
-	finalUnsubData = []
+    finalUnsubData = []
     //ITERATE THROUGH unsubUserData, manipulate data
     for (entries in unsubUserData){
-		unsubDate = unsubUserData[entries]['Timestamp'];
+		unsubDate = unsubUserData[entries][0];
 		DD = unsubDate.slice(0,2);
 		MM = unsubDate.slice(3,5);
 		YY = unsubDate.slice(6,10);
@@ -45,25 +60,27 @@ async function getUnsubDataFromGoogleSheets(){
 		unsubDate = YY + "-" + MM + "-" + DD + "T" + hh + ":" + mm + ":" + ss + ".000Z";
 		unsubDateValueOf = (new Date(unsubDate)).valueOf()
 		//console.log("New Data: " + unsubDate + " " + unsubDateValueOf);	
-		finalUnsubData.push([unsubUserData[entries]['Email'],unsubDateValueOf])
+		finalUnsubData.push([unsubUserData[entries][1],unsubDateValueOf])
     }	
-	//console.log (finalUnsubData);
+	console.log (finalUnsubData);
 	return finalUnsubData;
-}
+
+
+};
 
 async function getSubDataFromConvertKit(){
     //PULL SUBSCRIBER LIST FROM CONVERTKIT
     userSubData = ""
     try {
       const subUrl = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET;
-      const data = await getJSON(subUrl);
+      const data = await getJSONConvertKit(subUrl);
 
 	  finalSubData = [];
       //FOR LOOP TO ITERATE THROUGH PAGES
       for (counter = 1; counter <= data['total_pages']; counter++){
 
 		const subUrlWithPage = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET+"&page="+counter;
-		const dataWithPage = await getJSON(subUrlWithPage);
+		const dataWithPage = await getJSONConvertKit(subUrlWithPage);
 		//console.log(dataWithPage['subscribers']);
 		//console.log("Counter - ", counter);
 		for (i in dataWithPage['subscribers']){
@@ -81,7 +98,7 @@ async function getSubDataFromConvertKit(){
       console.error('Error:', error);
     }
 
-}
+};
 
 function unsubUser(userEmail){
 	jsonVar = {api_secret: process.env.CONVERTKIT_SECRET, email: userEmail};
@@ -101,7 +118,7 @@ function unsubUser(userEmail){
 	.then(data => console.log(data)) // Manipulate the data retrieved back, if we want to do something with it
 	.catch(err => console.log(err)) // Do something with the error   	
 
-}
+};
 
 async function findUsersToUnsub(currentlySubbed, awaitingUnsub){
 	for (x in awaitingUnsub){

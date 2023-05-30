@@ -1,6 +1,6 @@
-
 require('dotenv').config();
 const fetch = require('node-fetch');
+console.log("hello world")
 
 async function getJSONGoogleSheet(url) {
     try {
