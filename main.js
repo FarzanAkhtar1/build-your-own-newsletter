@@ -1,6 +1,8 @@
 require('dotenv').config();
+const fetch = require('node-fetch');
 
-console.log(process.env.CONVERTKIT_SECRET);
+
+//console.log(process.env.CONVERTKIT_SECRET);
 console.log("Hello world");
 
 function pullNewsData(){
@@ -14,15 +16,13 @@ function pullNewsData(){
 	// });
 
 }
-pullNewsData()
 
-function pullSubscribedUsers(){
-	
-	const callURL = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET
-	console.log(callURL);
-	//const req = http.request
+
+
+async function main(){
 
 }
-
-//pullSubscribedUsers()
+main()
+//getUnsubDataFromGoogleSheets()
+//unsubData = getUnsubDataFromGoogleSheets()
 
