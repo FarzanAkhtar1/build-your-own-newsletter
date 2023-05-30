@@ -54,3 +54,9 @@ Flow outlining how parts of the system will interact when the user is subscribin
 Flow outlining how parts of the system will interact when sending out the daily email
 ![alt text](https://github.com/FarzanAkhtar1/build-your-own-newsletter/blob/main/UML%20Diagrams/Email%20flow.jpg)
 
+### User Unsubscribe Flow (unsubflow.js)
+Flow outlining how parts of the system will interact when a user wants to unsubscribe
+
+### User Tagging Flow (tagsflow.js)
+Flow outlining how parts of the system will interact when a user's preferences are being tagged
+
