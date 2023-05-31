@@ -55,13 +55,38 @@ async function getTagDataFromGoogleSheets(){
     return finalTagData;
 };
 
-function tagUser(email, preference){
+async function tagUser(email, preferences){
+  jsonVar = {api_secret: process.env.CONVERTKIT_SECRET, email: email, tags: preferences};
+	const postMethod = {
+	method: 'POST', // Method itself
+  headers: {
+    'Content-type': 'application/json'
+  },
+  body: JSON.stringify(jsonVar)
+	}
 
+	// make the HTTP put request using fetch api to get the list of tags
+  //console.log('https://api.convertkit.com/v3/tags/'+ preferences[0] + "/subscribe")
+  const response = await fetch('https://api.convertkit.com/v3/tags/'+ preferences[0] + "/subscribe", postMethod);
+  //console.log(response)
+  if (!response.ok) {
+    throw new Error(`HTTP error! Status: ${response.status}`);
+  }
 };
 
-function untagUser(email, preference){
-  console.log(email, preference)
+async function untagUser(userId, preference){
 
+	const getMethod = {
+	method: 'DELETE', // Method itself
+	}
+
+	// make the HTTP put request using fetch api to get the list of tags
+  //console.log('https://api.convertkit.com/v3/subscribers/'+ userId + "/tags/" + preference + "?api_key=" + process.env.CONVERTKIT_SECRET)
+  const response = await fetch('https://api.convertkit.com/v3/subscribers/'+ userId + "/tags/" + preference + "?api_secret=" + process.env.CONVERTKIT_SECRET, getMethod);
+  //console.log(response)
+  if (!response.ok) {
+    throw new Error(`HTTP error! Status: ${response.status}`);
+  }
 };
 
 async function getJSONConvertKit(url) {
@@ -165,31 +190,38 @@ async function updateUserTags(userTagPreferences, userIds, allTags){
   for (x in userTagPreferences){
 
     var userId = userIds[userTagPreferences[x][0]]
-    //console.log("---- ", x, userIds[userTagPreferences[x][0]])
     if ((userTagPreferences[x][1] > Date.now()-172800000) && (userTagPreferences[x][0] in userIds)){//If the user's request is less than 2 days old (86400000 = 1 day) and they are a subscriber
       //console.log(x,"In", userTagPreferences[x], userIds, userId )
-      //console.log("User ID", userId)
       tagsFromConvertKit = await getListOfTagsFromConvertKit(userId); //Get their tags from convertkit
 
       //Untag user flow
       for (y in tagsFromConvertKit){ //For every tag the user currently has
-        //console.log(y, userTagPreferences[x][2])
-        if (y in userTagPreferences[x][2] == false){ //If the tag is not in their updated preferences then... 
-          console.log("Untag user",userTagPreferences[x][0], y, tagsFromConvertKit[y]) //remove that tag from the user
-          //untagUser(userTagPreferences[x][0],tagsFromConvertKit[y]) //need to write untag function
+        match = false //boolean to check if the item exists in the tags required
+        for (n in userTagPreferences[x][2]){ //iterates through all the tags they want
+          //console.log(y)
+          y == String(userTagPreferences[x][2][n]) ? match = true : blank = 0; //if they don't  have the tag they want, remain false
+        };
+        if (match == false){ //if they don't have the tag, remove that tag
+          console.log("Untag user",userIds[userTagPreferences[x][0]], y, tagsFromConvertKit[y]) //remove that tag from the user
+          untagUser(userIds[userTagPreferences[x][0]],tagsFromConvertKit[y]) //call untag function
         };
       };
 
       //Tag user flow
+      tagsToAdd = [] //tag function takes a list of tags 
       for (y in userTagPreferences[x][2]){ //For every tag the user wants
-        //console.log(userTagPreferences[x][2])
         //console.log(y, tagsFromConvertKit, userTagPreferences[x][2][y])
         if (userTagPreferences[x][2][y] in tagsFromConvertKit == false){ //If the tag is not in their current prefences
+          tagsToAdd.push(allTags[userTagPreferences[x][2][y]])
+          //console.log("Tag user", userTagPreferences[x][0], allTags[userTagPreferences[x][2][y]])
 
-          console.log("Tag user", userTagPreferences[x][0], userTagPreferences[x][2][y], allTags[userTagPreferences[x][2][y]]) //tag the user
-          //tagUser() //need to write tag function
         };
       };
+      if (tagsToAdd.length > 0){
+        console.log("Tag user", userTagPreferences[x][0], tagsToAdd) //tag the user
+        tagUser(userTagPreferences[x][0], tagsToAdd) //need to write tag function            
+      };
+
     };
   };
 };
