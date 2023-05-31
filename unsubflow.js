@@ -14,7 +14,7 @@ async function getJSONConvertKit(url) {
     } catch (error) {
       console.error('Error:', error);
     }
-  }
+};
 
 async function getJSONGoogleSheet(url) {
     try {
@@ -30,7 +30,7 @@ async function getJSONGoogleSheet(url) {
     } catch (error) {
       console.error('Error:', error);
     }
-}  
+};
 
 
 async function getUnsubDataFromGoogleSheets(){
@@ -64,40 +64,34 @@ async function getUnsubDataFromGoogleSheets(){
     }	
 	console.log (finalUnsubData);
 	return finalUnsubData;
-
-
 };
 
 async function getSubDataFromConvertKit(){
     //PULL SUBSCRIBER LIST FROM CONVERTKIT
     userSubData = ""
     try {
-      const subUrl = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET;
-      const data = await getJSONConvertKit(subUrl);
+		const subUrl = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET;
+		const data = await getJSONConvertKit(subUrl);
+		finalSubData = [];
+		//FOR LOOP TO ITERATE THROUGH PAGES
+		for (counter = 1; counter <= data['total_pages']; counter++){
 
-	  finalSubData = [];
-      //FOR LOOP TO ITERATE THROUGH PAGES
-      for (counter = 1; counter <= data['total_pages']; counter++){
-
-		const subUrlWithPage = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET+"&page="+counter;
-		const dataWithPage = await getJSONConvertKit(subUrlWithPage);
-		//console.log(dataWithPage['subscribers']);
-		//console.log("Counter - ", counter);
-		for (i in dataWithPage['subscribers']){
-			subDateValueOf = new Date(dataWithPage['subscribers'][i]['created_at']).valueOf()
-			finalSubData.push([dataWithPage['subscribers'][i]['email_address'], subDateValueOf]);
+			const subUrlWithPage = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET+"&page="+counter;
+			const dataWithPage = await getJSONConvertKit(subUrlWithPage);
+			//console.log(dataWithPage['subscribers']);
+			//console.log("Counter - ", counter);
+			for (i in dataWithPage['subscribers']){
+				subDateValueOf = new Date(dataWithPage['subscribers'][i]['created_at']).valueOf()
+				finalSubData.push([dataWithPage['subscribers'][i]['email_address'], subDateValueOf]);
+			};
 		};
-		
-        };
-	//console.log(finalSubData);
-	return finalSubData;
-
-      userSubData = data; //SUB DATA IS STORED IN userSubData
+		//console.log(finalSubData);
+		return finalSubData;
+      	//userSubData = data; //SUB DATA IS STORED IN userSubData
     } catch (error) {
       // Handle any errors that occurred during the process
       console.error('Error:', error);
     }
-
 };
 
 function unsubUser(userEmail){
@@ -124,7 +118,6 @@ async function findUsersToUnsub(currentlySubbed, awaitingUnsub){
 	for (x in awaitingUnsub){
 		unsubEmail = awaitingUnsub[x][0];
 		unsubTime = awaitingUnsub[x][1];
-
 		for (y in currentlySubbed){
 			subEmail = currentlySubbed[y][0];
 			subTime = currentlySubbed[y][1];
@@ -137,12 +130,10 @@ async function findUsersToUnsub(currentlySubbed, awaitingUnsub){
                 //logic to manage the fact that an array of length 1 doesn't work with splice
 				awaitingUnsub.length == 1 ? awaitingUnsub = [] : awaitingUnsub = awaitingUnsub.splice(x,1);
 				currentlySubbed.length == 1 ? currentlySubbed = [] : currentlySubbed = currentlySubbed.splice(y,1);
-
 			}
 		}
-
 	}
-}
+};
 
 async function main(){
 	finalUnsubData = await getUnsubDataFromGoogleSheets(); //returns a list of emails and times of the users who want to unsub
