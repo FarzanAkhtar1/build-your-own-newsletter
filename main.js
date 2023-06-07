@@ -42,7 +42,7 @@ async function pullNewsData(){
 			//console.log(publisher, date, headline, url)
 
 			// Add iuf it doesn't contain the name of the actual asset
-			if ((newsData[3].toUpperCase()).includes("PRICE") ||
+			if (((newsData[3].toUpperCase()).includes("PRICE") ||
 				(newsData[3].toUpperCase()).includes("BULL") || 
 				(newsData[3].toUpperCase()).includes("BEAR") ||
 				(newsData[3].toUpperCase()).includes("RALL") || //RALLY or RALLIES				
@@ -54,7 +54,13 @@ async function pullNewsData(){
 				(newsData[3].toUpperCase()).includes("ARTIFICIAL") ||
 				(newsData[3].toUpperCase()).includes("PUMP") ||
 				(newsData[3].toUpperCase()).includes("DUMP") ||
-				(newsData[3].toUpperCase()).includes("INSIDE BITCOIN")){
+				(newsData[3].toUpperCase()).includes("INSIDE BITCOIN")
+				|| //other ore function
+				((newsData[3].toUpperCase()).includes("INSIDE BITCOIN") ||
+				(newsData[3].toUpperCase()).includes("INSIDE BITCOIN") ||
+				(newsData[3].toUpperCase()).includes("INSIDE BITCOIN") ||
+				)
+				)){
 				console.log("detected", newsData[3])
 			}else{
 				urlAndHeadline.push(newsData)
