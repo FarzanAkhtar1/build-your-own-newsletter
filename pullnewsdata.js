@@ -41,6 +41,7 @@ async function pullNewsData(){
 			newsData = [publisher, date, url, headline] 
 			//console.log(publisher, date, headline, url)
 
+			// Add iuf it doesn't contain the name of the actual asset
 			if ((newsData[3].toUpperCase()).includes("PRICE") ||
 				(newsData[3].toUpperCase()).includes("BULL") || 
 				(newsData[3].toUpperCase()).includes("BEAR") ||
@@ -77,6 +78,21 @@ async function pullNewsData(){
 	});
 }	
 
+async function sendEmail(newsOfEachCoin){
+	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
+
+	//Define email formatting  for sendgrid
+
+	//Pull all users and their tags from ConvertKit
+	// Remove everything after the bracket (i.e., Bitcoin (BTC) -> Bitcoin) can use regex such as /(.*)/g
+	
+	//For each user
+		//Read their tags
+		//Construct an email based on their tags (pull data from newsOfEachCoin)
+		//Send email
+
+}
+
 async function main(){
 	sites = await pullNewsData()
 	//console.log(sites)
@@ -84,5 +100,7 @@ async function main(){
 //main()
 //getUnsubDataFromGoogleSheets()
 //unsubData = getUnsubDataFromGoogleSheets()
+
+
 
 main()
