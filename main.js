@@ -62,6 +62,7 @@ async function pullNewsData(){
 			}
 		}
 		console.log(urlAndHeadline.length)	
+		console.log(urlAndHeadline)
 
 		// fs.writeFile('sorted.txt', String(urlAndHeadline), err => {
 		// 	if (err) {
@@ -83,7 +84,7 @@ async function sendEmail(newsOfEachCoin){
 
 	//Define email formatting  for sendgrid
 
-	//Pull all users and their tags from ConvertKit
+	//Pull all users and their tags from ConvertKit can reused code from tagsflow.js
 	// Remove everything after the bracket (i.e., Bitcoin (BTC) -> Bitcoin) can use regex such as /(.*)/g
 	
 	//For each user
