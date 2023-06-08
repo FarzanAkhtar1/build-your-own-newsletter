@@ -86,14 +86,30 @@ async function pullNewsData(coins, tickers){
 	}	
 }
 
+async function getSubscribersJSONConvertKit() {
+	const getMethod = {
+		method: 'GET', // Method itself
+		}
+	
+		// make the HTTP put request using fetch api to get the list of tags
+	  const response = await fetch('https://api.convertkit.com/v3/subscribers?api_secret='+ process.env.CONVERTKIT_SECRET, getMethod);
+	  if (!response.ok) {
+		throw new Error(`HTTP error! Status: ${response.status}`);
+	  }
+	  const data = await response.json();  
+	  console.log(data)
+	  //console.log(data)
+};
+
 async function sendEmail(newsOfEachCoin){
 	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
 
 	//Define email formatting  for sendgrid
 
-	//Pull all users and their tags from ConvertKit can reused code from tagsflow.js
+	// Pull all users, store their email
+		// For each user, pull their tags and their tags from ConvertKit can reused code from tagsflow.js
 	// Remove everything after the bracket (i.e., Bitcoin (BTC) -> Bitcoin) can use regex such as /(.*)/g
-	
+	//https://api.convertkit.com/v3/subscribers?api_secret=<your_secret_api_key>
 	//For each user
 		//Read their tags
 		//Construct an email based on their tags (pull data from newsOfEachCoin)
@@ -102,9 +118,10 @@ async function sendEmail(newsOfEachCoin){
 }
 
 async function main(){
-	names = ['Bitcoin','Algorand']
-	ticker = ['BTC', 'ALGO']
-	sites = await pullNewsData(names, ticker)
+	getSubscribersJSONConvertKit()
+	//names = ['Bitcoin','Algorand']
+	//ticker = ['BTC', 'ALGO']
+	//sites = await pullNewsData(names, ticker)
 	//console.log(sites)
 }
 //main()
