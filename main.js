@@ -86,19 +86,52 @@ async function pullNewsData(coins, tickers){
 	}	
 }
 
+async function getJSONConvertKit(url) {
+    try {
+      const absoluteURL = new URL(url, process.env.UNSUBSCRIBE_FORM);
+      const response = await fetch(absoluteURL.href);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error:', error);
+    }
+};
+
 async function getSubscribersJSONConvertKit() {
-	const getMethod = {
-		method: 'GET', // Method itself
+	const getMethod = { //Define the type of method
+		method: 'GET', 
 		}
 	
-		// make the HTTP put request using fetch api to get the list of tags
-	  const response = await fetch('https://api.convertkit.com/v3/subscribers?api_secret='+ process.env.CONVERTKIT_SECRET, getMethod);
-	  if (!response.ok) {
+		// make the HTTP put request using fetch api to get the list of users
+	const response = await fetch('https://api.convertkit.com/v3/subscribers?api_secret='+ process.env.CONVERTKIT_SECRET, getMethod);
+	if (!response.ok) {
 		throw new Error(`HTTP error! Status: ${response.status}`);
-	  }
-	  const data = await response.json();  
-	  console.log(data)
-	  //console.log(data)
+	};
+
+	const data = await response.json();  
+	//console.log(data)
+	subscribersDict = {} //dict to store user information
+	for (counter = 1; counter <= data['total_pages']; counter++){ //subscriber data is presented in pages so we need to iterate through the max number of pages given by the API
+		const subUrlWithPage = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET+"&page="+counter; //pull user data based on page
+		const dataWithPage = await getJSONConvertKit(subUrlWithPage);
+		for (i in dataWithPage['subscribers']){ //iterates through all the users
+			userID = dataWithPage['subscribers'][i]['id'] //takes the user's ID, this will be used as the key for subscriberDict
+			subscribersDict[userID] = ""; //creates the dict with an empty value
+			const userTagsURL = "https://api.convertkit.com/v3/subscribers/" + userID + "/tags?api_key=" + process.env.CONVERTKIT_PUBLIC; //pulls the specific user's tags, ID is the unique identifier
+			const userTagsData = await getJSONConvertKit(userTagsURL);		
+			tags = []
+			for (y in userTagsData['tags']){ //for the tags user has
+				tags.push(userTagsData['tags'][y]['name'].replace(/ (.*)/g,"")) //remove the ticker from the tag name
+				//console.log(userTagsData['tags'][y]['name'].replace(/ (.*)/g,""))
+			};
+			subscribersDict[dataWithPage['subscribers'][i]['id']] = [tags,dataWithPage['subscribers'][i]['first_name'], dataWithPage['subscribers'][i]['email_address']] //adds the tag data, name, and email to the value of the key above
+			//finalSubData.push([dataWithPage['subscribers'][i]['email_address'], subDateValueOf]);
+		};
+	};
+	return subscribersDict
 };
 
 async function sendEmail(newsOfEachCoin){
@@ -115,10 +148,12 @@ async function sendEmail(newsOfEachCoin){
 		//Construct an email based on their tags (pull data from newsOfEachCoin)
 		//Send email
 
-}
+};
 
 async function main(){
-	getSubscribersJSONConvertKit()
+	jsons123 = await getSubscribersJSONConvertKit()
+	console.log(jsons123)
+	
 	//names = ['Bitcoin','Algorand']
 	//ticker = ['BTC', 'ALGO']
 	//sites = await pullNewsData(names, ticker)
