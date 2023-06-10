@@ -154,6 +154,7 @@ async function main(){
 	jsons123 = await getSubscribersJSONConvertKit()
 	console.log(jsons123)
 	
+	
 	//names = ['Bitcoin','Algorand']
 	//ticker = ['BTC', 'ALGO']
 	//sites = await pullNewsData(names, ticker)
