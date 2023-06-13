@@ -1,6 +1,9 @@
 require('dotenv').config();
 const fetch = require('node-fetch');
 const fs = require('fs');
+const { userInfo } = require('os');
+//const sgMail = require('@sendgrid/mail')
+
 
 //console.log(process.env.CONVERTKIT_SECRET);
 console.log("Hello world");
@@ -138,6 +141,37 @@ async function getSubscribersJSONConvertKit() {
 };
 
 async function sendEmail(newsOfEachCoin, subscriberDict){
+	for (x in subscriberDict){ //for each user
+		userEmail = subscriberDict[x][2] //get user email
+		userName = subscriberDict[x][1] //get users names
+		userNews = subscriberDict[x][0] //get users news prefs
+		totalNews = ""
+		for (y in userNews){ //for each of their preferences
+			console.log(userNews[y])
+			try{
+				console.log(newsOfEachCoin[userNews])
+				totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
+			}catch{};
+		};
+		console.log(totalNews)
+	}
+	//sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+	// const msg = {
+	// 	to: 'test@example.com', // Change to your recipient
+	// 	from: process.env.SENDGRID_API_KEY, // Change to your verified sender
+	// 	subject: 'Test email from fudge',
+	// 	text: 'test email',
+	// 	html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+	//   }
+	//   sgMail
+	// 	.send(msg)
+	// 	.then(() => {
+	// 	  console.log('Email sent')
+	// 	})
+	// 	.catch((error) => {
+	// 	  console.error(error)
+	// 	})
+	//Added sendgrid API key
 	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
 
 	//Define email formatting  for sendgrid
@@ -156,17 +190,18 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 async function main(){
 
 
-	jsons123 = await getSubscribersJSONConvertKit()
+	userInfos = await getSubscribersJSONConvertKit()
 	console.log("-----")
-	console.log(jsons123)
+	console.log(userInfos)
 	console.log("-----")
 	
-	names = ['Bitcoin','Algorand']
-	ticker = ['BTC', 'ALGO']
-	sites = await pullNewsData(names, ticker)
+	names = ['Bitcoin','Solana']
+	ticker = ['BTC', 'SOL']
+	newsLinks = await pullNewsData(names, ticker)
 	console.log("-----")
-	console.log(sites)
+	console.log(newsLinks)
 	console.log("-----")
+	await sendEmail(newsLinks, userInfos)
 }
 //main()
 //getUnsubDataFromGoogleSheets()
