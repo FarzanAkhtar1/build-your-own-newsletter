@@ -6,6 +6,7 @@ const fs = require('fs');
 console.log("Hello world");
 
 async function pullNewsData(coins, tickers){
+	newsDataFinal = {}
 	for (y in coins){
 		await fetch(process.env.TEST_SITE + coins[y] + "?type=ln").then(function (response) {
 			return response.text();
@@ -68,8 +69,9 @@ async function pullNewsData(coins, tickers){
 					console.log("Clean -", newsData[3], newsData[0], newsData[1])
 				}
 			}
-			console.log(tickers[y], coins[y], urlAndHeadline.length)
 
+			console.log(tickers[y], coins[y], urlAndHeadline.length)
+			newsDataFinal[coins[y]] = urlAndHeadline
 			// fs.writeFile('sorted.txt', String(urlAndHeadline), err => {
 			// 	if (err) {
 			// 	  console.error(err);
@@ -83,7 +85,8 @@ async function pullNewsData(coins, tickers){
 			// There was an error
 			console.warn('Something went wrong.', err);
 		});
-	}	
+	}
+	return newsDataFinal	
 }
 
 async function getJSONConvertKit(url) {
@@ -134,7 +137,7 @@ async function getSubscribersJSONConvertKit() {
 	return subscribersDict
 };
 
-async function sendEmail(newsOfEachCoin){
+async function sendEmail(newsOfEachCoin, subscriberDict){
 	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
 
 	//Define email formatting  for sendgrid
@@ -151,14 +154,19 @@ async function sendEmail(newsOfEachCoin){
 };
 
 async function main(){
+
+
 	jsons123 = await getSubscribersJSONConvertKit()
+	console.log("-----")
 	console.log(jsons123)
+	console.log("-----")
 	
-	
-	//names = ['Bitcoin','Algorand']
-	//ticker = ['BTC', 'ALGO']
-	//sites = await pullNewsData(names, ticker)
-	//console.log(sites)
+	names = ['Bitcoin','Algorand']
+	ticker = ['BTC', 'ALGO']
+	sites = await pullNewsData(names, ticker)
+	console.log("-----")
+	console.log(sites)
+	console.log("-----")
 }
 //main()
 //getUnsubDataFromGoogleSheets()
