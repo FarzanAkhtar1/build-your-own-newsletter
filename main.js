@@ -153,6 +153,7 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 				totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
 			}catch{};
 		};
+		
 		console.log(totalNews)
 	}
 	//sgMail.setApiKey(process.env.SENDGRID_API_KEY)
