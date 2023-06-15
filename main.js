@@ -2,7 +2,7 @@ require('dotenv').config();
 const fetch = require('node-fetch');
 const fs = require('fs');
 const { userInfo } = require('os');
-//const sgMail = require('@sendgrid/mail')
+const sgMail = require('@sendgrid/mail')
 
 
 //console.log(process.env.CONVERTKIT_SECRET);
