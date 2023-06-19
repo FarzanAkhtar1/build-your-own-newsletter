@@ -156,9 +156,9 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		
 		console.log(totalNews)
 	}
-	//sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+	// sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 	// const msg = {
-	// 	to: 'test@example.com', // Change to your recipient
+	// 	to: 'farzan.akhtar1@gmail.com', // Change to your recipient
 	// 	from: process.env.SENDGRID_API_KEY, // Change to your verified sender
 	// 	subject: 'Test email from fudge',
 	// 	text: 'test email',
