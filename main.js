@@ -156,22 +156,22 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		
 		console.log(totalNews)
 	}
-	// sgMail.setApiKey(process.env.SENDGRID_API_KEY)
-	// const msg = {
-	// 	to: 'farzan.akhtar1@gmail.com', // Change to your recipient
-	// 	from: process.env.SENDGRID_API_KEY, // Change to your verified sender
-	// 	subject: 'Test email from fudge',
-	// 	text: 'test email',
-	// 	html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-	//   }
-	//   sgMail
-	// 	.send(msg)
-	// 	.then(() => {
-	// 	  console.log('Email sent')
-	// 	})
-	// 	.catch((error) => {
-	// 	  console.error(error)
-	// 	})
+	sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+	const msg = {
+		to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+		from: process.env.SENDGRID_SENDER, // Change to your verified sender
+		subject: 'Test email from fudge',
+		text: 'test email',
+		html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+	  }
+	  sgMail
+		.send(msg)
+		.then(() => {
+		  console.log('Email sent')
+		})
+		.catch((error) => {
+		  console.error(error)
+		})
 	//Added sendgrid API key
 	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
 
