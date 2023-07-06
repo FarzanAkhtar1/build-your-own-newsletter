@@ -142,6 +142,7 @@ async function getSubscribersJSONConvertKit() {
 
 async function sendEmail(newsOfEachCoin, subscriberDict){
 	for (x in subscriberDict){ //for each user
+		console.log(subscriberDict[x])
 		userEmail = subscriberDict[x][2] //get user email
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
@@ -149,29 +150,40 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		for (y in userNews){ //for each of their preferences
 			console.log(userNews[y])
 			try{
-				console.log(newsOfEachCoin[userNews])
+				console.log(newsOfEachCoin[userNews[y]])
+				//console.log(newsOfEachCoin[userNews])
 				totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
 			}catch{};
 		};
 		
-		console.log(totalNews)
+		//console.log(totalNews)
 	}
 	sgMail.setApiKey(process.env.SENDGRID_API_KEY)
-	const msg = {
-		to: 'farzan.akhtar1@gmail.com', // Change to your recipient
-		from: process.env.SENDGRID_SENDER, // Change to your verified sender
-		subject: 'Test email from fudge',
-		text: 'test email',
-		html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-	  }
-	  sgMail
-		.send(msg)
-		.then(() => {
-		  console.log('Email sent')
-		})
-		.catch((error) => {
-		  console.error(error)
-		})
+	let ts = Date.now();
+	let date_ob = new Date(ts);
+	let date = date_ob.getDate();
+	let month = date_ob.getMonth() + 1;
+	let year = date_ob.getFullYear();
+	// prints date & time in YYYY-MM-DD format
+	emailDate = (date + "/" + month + "/" + year);
+
+	// const msg = {
+	// 	to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+	// 	from: process.env.SENDGRID_SENDER, // Change to your verified sender
+	// 	subject: 'Test email from fudge',
+	// 	text: 'test email',
+	// 	html: '<strong>New Block - '+ emailDate + '</strong>' +
+	// 		'<p>Welcome to this edition of New Block</p>',	
+	//   }
+	//   sgMail
+	// 	.send(msg)
+	// 	.then(() => {
+	// 	  console.log('Email sent')
+	// 	})
+	// 	.catch((error) => {
+	// 	  console.error(error)
+	// 	})
+
 	//Added sendgrid API key
 	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
 
