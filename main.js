@@ -141,23 +141,10 @@ async function getSubscribersJSONConvertKit() {
 };
 
 async function sendEmail(newsOfEachCoin, subscriberDict){
-	for (x in subscriberDict){ //for each user
-		console.log(subscriberDict[x])
-		userEmail = subscriberDict[x][2] //get user email
-		userName = subscriberDict[x][1] //get users names
-		userNews = subscriberDict[x][0] //get users news prefs
-		totalNews = ""
-		for (y in userNews){ //for each of their preferences
-			console.log(userNews[y])
-			try{
-				console.log(newsOfEachCoin[userNews[y]])
-				//console.log(newsOfEachCoin[userNews])
-				totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
-			}catch{};
-		};
-		
-		//console.log(totalNews)
-	}
+
+	//Interate through each of the news and format it into HTML, one line is one link, store in a dict
+
+	//date information
 	sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 	let ts = Date.now();
 	let date_ob = new Date(ts);
@@ -165,25 +152,48 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 	let month = date_ob.getMonth() + 1;
 	let year = date_ob.getFullYear();
 	// prints date & time in YYYY-MM-DD format
-	emailDate = (date + "/" + month + "/" + year);
+	emailDate = (date + "/" + month + "/" + year);	
 
-	// const msg = {
-	// 	to: 'farzan.akhtar1@gmail.com', // Change to your recipient
-	// 	from: process.env.SENDGRID_SENDER, // Change to your verified sender
-	// 	subject: 'Test email from fudge',
-	// 	text: 'test email',
-	// 	html: '<strong>New Block - '+ emailDate + '</strong>' +
-	// 		'<p>Welcome to this edition of New Block</p>',	
-	//   }
-	//   sgMail
-	// 	.send(msg)
-	// 	.then(() => {
-	// 	  console.log('Email sent')
-	// 	})
-	// 	.catch((error) => {
-	// 	  console.error(error)
-	// 	})
+	for (x in subscriberDict){ //for each user
+		console.log(subscriberDict[x])
+		userEmail = subscriberDict[x][2] //get user email
+		userName = subscriberDict[x][1] //get users names
+		userNews = subscriberDict[x][0] //get users news prefs
+		totalNews = ""
+		emailHTML = '<strong>New Block - '+ emailDate + '</strong>' +
+		'<p>Welcome to this edition of New Block</p>'
+		for (y in userNews){ //for each of their preferences
+			console.log(userNews[y])
+			try{
+				console.log(newsOfEachCoin[userNews[y]])
+				///////////////////to emailHTML add the user's preferences
 
+				//console.log(newsOfEachCoin[userNews])
+				//totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
+			}catch{};
+		};
+		
+		//console.log(totalNews)
+	
+		emailHTML = emailHTML +
+					'<p>Thanks to X for supporting us</p>'
+		// const msg = {
+		// 	to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+		// 	from: process.env.SENDGRID_SENDER, // Change to your verified sender
+		// 	subject: 'Test email from fudge',
+		// 	text: 'test email',
+		// 	html: '<strong>New Block - '+ emailDate + '</strong>' +
+		// 		'<p>Welcome to this edition of New Block</p>',	
+		//   }
+		//   sgMail
+		// 	.send(msg)
+		// 	.then(() => {
+		// 	  console.log('Email sent')
+		// 	})
+		// 	.catch((error) => {
+		// 	  console.error(error)
+		// 	})
+	}
 	//Added sendgrid API key
 	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
 
