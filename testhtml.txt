@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html class="njs ">
+<head>
+<!--
+  _     _  ___     ___ __ _  ___
+ | |   | |/ _ \   |__ \\ `_|/ _ \
+  \ \/\/ /  __/   / _  | | |  __/
+  _\____/ \__|    \___/|_|  \__|
+  \ |___ (_)__ _ (_)__ __   ___
+  | '_  \\ |\ `_|\ |\ '_ \ / _ \
+  | | | || || |  | || | | | |_| |
+  |_| |_||_||_|  |_||_| |_|\__. |
+Write code for 10**7.18 people| |
+http://www.NewsNow.co.uk/careers/
+-->
+   <title>NewsNow: Solana headlines | Every Source, Every Five Minutes, 24/7 news</title>
+   <link rel="dns-prefetch" href="//c.newsnow.co.uk">
+   <meta name="robots" content="ALL,NOODP">
+   <meta name="referrer" content="origin">
+   <meta name="viewport" content="initial-scale=1, width=device-width">
+   <meta name="description" content="Track breaking UK headlines on NewsNow: the one-stop shop for UK news"><meta name="keywords" content="news, NewsNow, Arsenal FC, Liverpool FC, Tottenham Hotspur">
+      <link rel="apple-touch-icon" sizes="180x180" href="/ico/fav/apple-touch-icon.png?v=201612141100">
+   <link rel="icon" type="image/png" href="/ico/fav/favicon-32x32.png?v=201612141100" sizes="32x32">
+   <link rel="icon" type="image/png" href="/ico/fav/favicon-16x16.png?v=201612141100" sizes="16x16">
+   <link rel="manifest" href="/ico/fav/manifest.json?v=201905031600">
+   <link rel="mask-icon" href="/ico/fav/safari-pinned-tab.svg?v=201612141100" color="#5bbad5">
+   <link rel="shortcut icon" href="/ico/nn.ico?v=201612141100">
+   <meta name="apple-mobile-web-app-title" content="NewsNow">
+   <meta name="application-name" content="NewsNow">
+   <meta name="msapplication-config" content="/ico/fav/browserconfig.xml?v=201612141100">
+   <meta name="theme-color" content="#ffffff">
+   
+   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WR53CPM');</script>
+   <link rel="preload" href="/scache/1_0_eee3167af610371f9699fc55bb5f5516.css" as="style">
+<link rel="preload" href="/scache/2_0_8648783f70e5fd37a3032988c0ac075f.js" as="script">
+<link rel="preload" href="/scache/38_0_c1a9dc7243b529596d1af2c821839d0d.js" as="script">
+<link rel="preload" href="/scache/8_0_6c5e7e58aeb2242b3b5037a264ad9e3f.js" as="script">
+<link rel="preload" href="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" as="script"><link rel="preload" href="https://use.typekit.net/mss5xmd.css" as="style">
+   <script>
+   if(typeof(nn)=='undefined'){nn={};}
+   nn.data = {
+      "noWr": false,
+      "sServ": '',
+      "cpath": 'h',
+      "csite": 'UK',
+      "geo": 'GB',
+      "isEEA": true,
+      "ccd": '.newsnow.co.uk',
+      "sTim": '16900378-ef344dc2286f6ee1',
+       
+      "req_id": '06011497d3828402ab04',
+      "dev": [4,false,"1,115,4,0"],
+      "ab": {"newformat":{"group":"of","version":2},"cookie_msg":{"variant":1,"version":2,"group":"A"},"pbcmp":{"group":"C","version":17}},
+      "cpv": 2,
+      "mnid": '0', 
+      "nlid": '0', 
+      'ptype': 'news',
+      "canonicalUrl": 'https://www.newsnow.co.uk/h/?search=solana',
+      "addSlash2Url": true, 
+      "newformat": false,
+      "newformat_promo": false
+   };
+</script>
+   <script src="/scache/38_0_c1a9dc7243b529596d1af2c821839d0d.js"></script>
+
+   <script src="/scache/8_0_6c5e7e58aeb2242b3b5037a264ad9e3f.js"></script>
+
+<script>
+nn.CompEvents.fire('nnadReady');
+nnad.config.enabled = true;
+nnad.config.adServer = 'gam'; 
+nnad.config.networks_usd = {"adx":1.28575,"switch":1.28575,"s2s_pulsepoint":1,"indexExchange":1,"pubmatic":1,"fan":1,"amazon":1,"s2s_pubmatic":1,"brealtime":1,"s2s__secondprice":1,"appnexus":1,"appnexus_rtb":1,"emx_digital":1,"criteo":1.28575,"pulsepoint":1,"s2s":1,"aol":1,"justpremium":1,"s2s_index_exchange":1,"mediamath_rtb":1,"openx":1.28575};
+nnad.config.gbp_usd = 1.28575
+nnad.config.networks = {"brealtime":1,"s2s_pubmatic":66,"pubmatic":2,"indexExchange":4,"amazon":13,"fan":14,"switch":12,"s2s_pulsepoint":65,"adx":10,"mediamath_rtb":129,"openx":7,"s2s_index_exchange":64,"aol":3,"criteo":9,"pulsepoint":6,"justpremium":11,"s2s":8,"s2s__secondprice":127,"emx_digital":15,"appnexus_rtb":128,"appnexus":5};
+nnad.config.networks_coverage = {"s2s_pulsepoint":0,"switch":0,"adx":1,"s2s_pubmatic":0,"brealtime":0,"fan":1,"amazon":1,"indexExchange":1,"pubmatic":1,"criteo":1,"pulsepoint":0,"s2s":0,"aol":0,"justpremium":1,"appnexus":1,"appnexus_rtb":1,"emx_digital":0,"s2s__secondprice":0,"openx":1,"mediamath_rtb":1,"s2s_index_exchange":0};
+nnad.config.units = {"320x50":14,"728x90":1,"970x250":9,"120x600":8,"300x600":5,"300x50":13,"300x250":3,"300x100":12,"160x600":2,"970x90":7,"300x300":11,"300x1050":10,"1x1":127};
+
+
+
+function nnadInit(deviceType) {
+   var config = nnad.config;
+
+   if(deviceType === 'mobile') {
+      config.is_mobile = true;
+      config.prebidEnabled = 1;
+      config.slots_enabled = {"8":1,"5":1,"7":1,"9":1,"6":1};
+      config.adjustments = {"s2s_pubmatic":0.777756173439627,"brealtime":0.762201049970834,"indexExchange":0.777756173439627,"pubmatic":0.762201049970834,"fan":0.777756173439627,"amazon":0.777756173439627,"switch":1,"s2s_pulsepoint":0.777756173439627,"adx":0.87,"mediamath_rtb":0.777756173439627,"openx":1,"s2s_index_exchange":0.777756173439627,"criteo":1,"pulsepoint":0.777756173439627,"s2s":0.777756173439627,"aol":0.661092747423683,"justpremium":0.777756173439627,"s2s__secondprice":0.777756173439627,"appnexus":0.76997861170523,"appnexus_rtb":0.777756173439627,"emx_digital":0.762201049970834};
+      config.adjustments_usd = {"s2s_index_exchange":1,"mediamath_rtb":1,"openx":1.28575,"s2s__secondprice":1,"emx_digital":0.98,"appnexus":0.99,"appnexus_rtb":1,"aol":0.85,"criteo":1.28575,"pulsepoint":1,"s2s":1,"justpremium":1,"pubmatic":0.98,"indexExchange":1,"amazon":1,"fan":1,"brealtime":0.98,"s2s_pubmatic":1,"adx":1.1186025,"s2s_pulsepoint":1,"switch":1.28575};
+      nnad.prebid.timeout = 1250;
+      if (! nn.data.newformat) {
+   config.max_auto_slot_index = 9;
+   nnad.middle_column.init();
+}
+   }
+   else { 
+      config.prebidEnabled = 1;
+      config.slots_enabled = {"1":1,"2":1,"4":1,"3":1};
+      config.adjustments = {"s2s_index_exchange":0.777756173439627,"openx":1,"mediamath_rtb":0.777756173439627,"emx_digital":0.723313241298853,"appnexus_rtb":0.777756173439627,"appnexus":0.754423488236438,"s2s__secondprice":0.777756173439627,"criteo":1,"pulsepoint":0.762201049970834,"s2s":0.777756173439627,"aol":0.661092747423683,"justpremium":0.777756173439627,"amazon":0.777756173439627,"fan":0.777756173439627,"indexExchange":0.777756173439627,"pubmatic":0.777756173439627,"brealtime":0.723313241298853,"s2s_pubmatic":0.777756173439627,"adx":0.71,"switch":1,"s2s_pulsepoint":0.777756173439627};
+      config.adjustments_usd = {"emx_digital":0.93,"appnexus":0.97,"appnexus_rtb":1,"s2s__secondprice":1,"s2s":1,"criteo":1.28575,"aol":0.85,"pulsepoint":0.98,"justpremium":1,"s2s_index_exchange":1,"openx":1.28575,"mediamath_rtb":1,"adx":0.9128825,"s2s_pulsepoint":1,"switch":1.28575,"amazon":1,"fan":1,"pubmatic":1,"indexExchange":1,"brealtime":0.93,"s2s_pubmatic":1};
+      nnad.prebid.timeout = 1750;
+   }
+   
+   nnad.init();
+}
+
+
+nn.CompEvents.listen('ResponsiveColumnsDetermined', function(columnCount) {
+   nnadInit(columnCount === 1 ? 'mobile' : 'desktop');
+});
+
+
+</script>
+   <script>
+   
+   nn.UV = {
+      "au_d": true,
+      "dis": false,
+      "e": "179408"
+   };
+   nn.checklogin();
+    
+   nn.Settings.setDataDecr('Vf%7COq%04U%05a%40AS%19S%00T%18iDTDOo0%5Dc%1CwE%15%7C%08FM%1F%07%06Y%02V%05%0C%07%0E%06D%03%23%04%08%09%04%00S%08T%01%0C%14%05uP%01Y%06%09%04%0E%02W%03D%06%7B%00%07%0FR%04V%07%01%02%01%12RrP%04%01%02%01%0EY%06W%06%1C%02t%06P%08U%07%01%03%03%03R%15Rw%08%00%0E%02U%01T%03%0A%00%13%04%23%01P%0D%0C%07%07%06Q%07R%10%0As%07%06Y%06U%02%01%07%05%0ED%03%23%04%08%09%00%03V%05W%05%08');
+   
+   var Session='6quyd2yUI624t_Ipki81TJkblvo';
+   var NN_UT='1690037818';
+   nn.Browser.determine();
+   nn.xcss();
+   var googleSearchTerms = 'Solana'; 
+   try{ nn.data.hasTicker = true; }catch(e){ }
+</script>
+   <link href="/scache/1_0_eee3167af610371f9699fc55bb5f5516.css" rel="stylesheet" type="text/css" />
+
+   <script defer src="/scache/33_0_abc104c2e5ad06f60ccdf4f7a29eccba.js"></script>
+
+   <link rel="stylesheet" href="https://use.typekit.net/mss5xmd.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+   
+   <script src="/scache/2_0_8648783f70e5fd37a3032988c0ac075f.js"></script>
+<script defer src="/scache/37_0_b289d0b4a805eca49dd57b9b7e5149ec.js"></script>
+
+   
+<noscript><meta http-equiv="Refresh" content="300"></noscript>
+   
+   <script>
+nn.track_event('page', '06011497d3828402ab04', {'context': '0', 'url': "https://www.newsnow.co.uk/h/?search=solana"});
+</script>
+   <link rel="search" type="application/opensearchdescription+xml" title="NewsNow" href="/searchplugin.xml">
+   <meta http-equiv="content-language" content="en-GB">
+   <link rel="canonical" href="https://www.newsnow.co.uk/h/?search=solana">
+   
+   
+   
+   
+   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+   <script type="application/ld+json">
+   {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NewsNow",
+      "legalName" : "NewsNow Publishing Limited",
+      "url": "https://www.newsnow.co.uk/",
+      "logo": "https://www.newsnow.co.uk/images/nn-logo-inline.svg",
+      "foundingDate": "1997",
+      "sameAs": [
+         "https://www.facebook.com/NewsNowUK/",
+         "https://twitter.com/newsnowuk",
+         "https://www.linkedin.com/company/newsnow"
+      ]
+   }
+</script>
+   
+</head>
+<body class="site--uk geo--gb nn_newscontent ">
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR53CPM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <div class="preload">
+   <img width="1" height="1" src="/flags/fc_20160316.png">
+</div>
+      <div style="display: none"><!-- H:f58660e2f81b D:0.002492 R:0.180080 T:0.182572 RID:06011497d3828402ab04 I:13bb6b5d6d0dc829611bba33d84ee74d --></div>
+   <div id="fb-root"></div>
+   <div id="nn_container">
+      <div class="responsive_navbar"></div>
+
+<div id='alerts-container' class=" js-alerts-container">
+   <div id="pmbar" class="js-ticker alertsscroll_container ">
+      <div class="bwrap">
+         <div class="pmbar_inner">
+            <div class="alertsscroll_wrap"></div>
+            <div class="rs-clickcapture rs-clickcapture--off js-clickcapture js-make-translucent"></div>
+         </div>
+      </div>
+   </div>
+</div>
+   <div class="dyn_alertsdata off">
+      <div class="alerts-scroller">
+         <div class="alertsscroll">
+            <svg class="alertsscroll__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M14.7126 1.25714V14.7048H1.29258V1.25714H14.7126ZM15.9671 0H0V16H15.9671V0Z" fill="#FFC035"/>
+               <path d="M5.4745 3.77148H3.80176V5.44767H5.4745V3.77148Z" fill="#FFC035"/>
+               <path d="M12.2036 10.5144H10.5309V12.1906H12.2036V10.5144Z" fill="#FFC035"/>
+               <path d="M5.4745 5.44751H3.80176V7.1237H5.4745V5.44751Z" fill="#FFC035"/>
+               <path d="M12.2036 8.7998H10.5309V10.476H12.2036V8.7998Z" fill="#FFC035"/>
+               <path d="M7.14735 5.44751H5.47461V7.1237H7.14735V5.44751Z" fill="#FFC035"/>
+               <path d="M8.81984 7.12378H7.14709V8.79997H8.81984V7.12378Z" fill="#FFC035"/>
+               <path d="M10.4927 8.7998H8.81995V10.476H10.4927V8.7998Z" fill="#FFC035"/>
+               <path d="M5.4745 7.12378H3.80176V8.79997H5.4745V7.12378Z" fill="#FFC035"/>
+               <path d="M12.2036 7.12378H10.5309V8.79997H12.2036V7.12378Z" fill="#FFC035"/>
+               <path d="M5.4745 8.7998H3.80176V10.476H5.4745V8.7998Z" fill="#FFC035"/>
+               <path d="M12.2036 5.44751H10.5309V7.1237H12.2036V5.44751Z" fill="#FFC035"/>
+               <path d="M5.4745 10.5144H3.80176V12.1906H5.4745V10.5144Z" fill="#FFC035"/>
+               <path d="M12.2036 3.77148H10.5309V5.44767H12.2036V3.77148Z" fill="#FFC035"/>
+            </svg>
+
+            <ul class="scroller alerts"><li class="scrollable active unseen heading-4"><a href="/h/Sport/Football/International/FIFA+Women%27s+World+Cup?type=ln" class="item_c">
+   <span class="item_i">England have defeated Haiti 1-0 in their FIFA Women's World Cup opener</span>
+   <span data-post-id="47260" data-time="1690025432" class="md">12:30 Sat, 22 Jul</span>
+</a></li></ul>
+         </div>
+         <div class="alerts__controls">
+   <span class="js-alerts__icon--prev"><i class="alerts__icon--prev fas fa-angle-left"></i></span>
+   <span class="js-alerts__icon--next"><i class="alerts__icon--next fas fa-angle-right"></i></span>
+   <span class="js-alerts__icon--dismiss"><i class="alerts__icon--dismiss fas fa-times"></i></span>
+</div>
+<span class="js-alerts__btn--dismiss alerts__btn--dismiss btn--primary btn--primary--inverted btn--primary--no-spacing">
+   <span class="btn--primary__icon">
+      <i class="fas fa-check"></i>
+   </span>
+   <span class="btn--primary__label">OK</span>
+</span>
+      </div>
+      <ul class="alerts-pool"><li class="scrollable active unseen heading-4"><a href="/h/Sport/Football/International/FIFA+Women%27s+World+Cup?type=ln" class="item_c">
+   <span class="item_i">England have defeated Haiti 1-0 in their FIFA Women's World Cup opener</span>
+   <span data-post-id="47260" data-time="1690025432" class="md">12:30 Sat, 22 Jul</span>
+</a></li><li class="scrollable unseen heading-4"><a href="/h/UK/Travel+&#38;+Transport/Rail/Strikes" class="item_c">
+   <span class="item_i">Millions face disruption today as rail strikes continue into the first weekend of the summer holidays</span>
+   <span data-post-id="47259" data-time="1690012914" class="md">09:01 Sat, 22 Jul</span>
+</a></li><li class="scrollable unseen heading-4"><a href="/h/World+News/Europe/Eastern+Europe/Ukraine/Odesa" class="item_c">
+   <span class="item_i">Russia has attacked the Odesa region for a fourth day, targeting port and grain facilities</span>
+   <span data-post-id="47258" data-time="1690012901" class="md">09:01 Sat, 22 Jul</span>
+</a></li><li class="scrollable unseen heading-4"><a href="/h/World+News/Middle+East/Israel~Palestine" class="item_c">
+   <span class="item_i">Israeli forces have shot and killed a teenager in the West Bank, according to Palestinian officials</span>
+   <span data-post-id="47257" data-time="1690012889" class="md">09:01 Sat, 22 Jul</span>
+</a></li><li class="scrollable unseen heading-4"><a href="/h/UK/Immigration/Asylum+Seekers" class="item_c">
+   <span class="item_i">The UK government has said that a barge set to house asylum seekers is not &lsquo;a floating prison&rsquo;</span>
+   <span data-post-id="47256" data-time="1690012875" class="md">09:01 Sat, 22 Jul</span>
+</a></li><li class="scrollable unseen heading-4"><a href="/h/World+News/US/Joe+Biden?heading=US%20Navy&#38;search=Navy&#38;datefrom=1689894000&#38;sg=4bfaeee9&#38;sgt=csv1" class="item_c">
+   <span class="item_i">Joe Biden has nominated the first female admiral to lead the US Navy</span>
+   <span data-post-id="47255" data-time="1690012858" class="md">09:00 Sat, 22 Jul</span>
+</a></li></ul>
+   </div>
+   <script>
+   nn.alertScroller = new nn.AlertScrollerClass('', 6, '');
+   nn.alertScroller.pageload();
+</script>
+
+<div class="rs-grid rs-grid--skeleton js-skeleton">
+
+   <div class="rs-grid__header js-header-wrap">
+      <div class="site-ribbon birthday" data-testid="site-ribbon">
+   <!-- Put site ribbon into rs-grid__header so it keeps the odd full-width sizing of the header -->
+   <div class="site-ribbon-content">
+      <span class="message desktop-message">
+         Proudly celebrating our
+         <img src="/images/site-ribbon/birthday-25.svg" alt="25" width="26" height="19" />
+         <sup>th</sup>
+         anniversary promoting the public&apos;s access to credible, independent news and sport.
+      </span>
+
+      <span class="message intermediate-message">
+         Celebrating our
+         <img src="/images/site-ribbon/birthday-25.svg" alt="25" width="26" height="19" />
+         <sup>th</sup>
+         anniversary promoting credible and independent news.
+      </span>
+
+      <span class="message mobile-message">
+         Celebrating our
+         <img src="/images/site-ribbon/birthday-25.svg" alt="25" width="26" height="19" />
+         <sup>th</sup>
+         anniversary!
+      </span>
+
+      <span class="message mobile-narrow-message">
+         Celebrating
+         <img src="/images/site-ribbon/birthday-25.svg" alt="25" width="26" height="19" />
+         years!
+      </span>
+
+      <span class="dismiss-ribbon">
+         <!-- Add width & height to stop svg loading big then resizing -->
+         <svg class="svg-inline--fa fa-times fa-w-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg="" width="18" height="18">
+            <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path>
+         </svg>
+      </span>
+   </div>
+</div>
+<script>
+const SiteRibbon = {
+   maxQueueSize: 5, // max amount of times user should see banner within allotted time
+   maxTimeInSeconds: 86400, // One day
+   showRibbon: false,
+   currentTimeInSeconds: Math.round(Date.now() / 1000),
+   init: function() {
+      // Local Storage names
+      const localStorageId = 'nn_site_ribbon_dismiss-birthday';
+      const localStorageQueue = 'nn_site_ribbon_birthday-queue';
+
+      // Display values used
+      const DISPLAY_TYPES = { NONE: 'none', BLOCK: 'block' };
+      let ribbonDisplayValue = DISPLAY_TYPES.NONE;
+
+      // Query selectors 
+      const dismissRibbon = document.querySelector('.dismiss-ribbon');
+      const siteRibbon = document.querySelector('.site-ribbon');
+      const body = document.querySelector('body');             
+
+      // If user has has dismissed the banner then there is no need to do anything
+      const userDismissed = window.localStorage.getItem(localStorageId);
+      if(userDismissed){
+         siteRibbon.style = 'display:' + ribbonDisplayValue + ';';
+         return;
+      }
+
+      // Check banner queue to see if we should show banner, if so then add to banner queue
+      const seenRibbonQueue = JSON.parse(window.localStorage.getItem(localStorageQueue)) || [];
+      const filteredRibbonQueue = this.updateBannerQueue(seenRibbonQueue);
+      if(filteredRibbonQueue.length < this.maxQueueSize) {
+         window.localStorage.setItem(localStorageQueue, JSON.stringify([...filteredRibbonQueue, this.currentTimeInSeconds]));
+         this.showRibbon = true;
+      }
+
+      if (this.showRibbon) {
+         const hasRibbonClassName = 'has-site-ribbon';
+         ribbonDisplayValue = DISPLAY_TYPES.BLOCK; 
+        
+         body.classList.add(hasRibbonClassName);
+
+         // Close button listener
+         dismissRibbon.addEventListener('click', function(){
+            window.localStorage.setItem(localStorageId, 1);
+            window.localStorage.removeItem(localStorageQueue);
+
+            nn.gtm.triggerGenericEvent('Dismissible Banner', '25th anniversary', 'Close');
+            
+            siteRibbon.style = 'display: none;';
+            body.classList.remove(hasRibbonClassName);
+         })
+      }
+
+      siteRibbon.style = 'display:' + ribbonDisplayValue + ';';
+   },
+   updateBannerQueue(seenRibbonQueue) {
+      return seenRibbonQueue.filter((visitedTimeInSeconds) => {
+         if(this.currentTimeInSeconds - visitedTimeInSeconds < this.maxTimeInSeconds ) {
+            return visitedTimeInSeconds;
+         } 
+      });
+   }
+}
+SiteRibbon.init();
+</script>
+               <header class="rs-header js-header ">
+            <div class="rs-header__wrap">
+                <div class="rs-header__logo js-header__logo">
+                   <a class="rs-header__logo-link" href="/h/">
+                      <img class="rs-header__logo-img" src="/images/nn-logo-25-anniversary-inline.svg" alt="NewsNow - proudly celebrating its 25th anniversary"/>
+                   </a>
+               </div>
+               <div class="rs-searchbar js-searchbar js-tour-search">
+ <form class="rs-searchbar__form js-searchbar__form" action="/h/ajax/search-redir" accept-charset="UTF-8">
+   <div class="rs-searchbar__btn js js-searchbar__btn"><span><i class="fas fa-search js-searchbar__icon"></i></span><span class="htxt">Search</span></div>
+   
+   <div class="rs-searchbar__input-wrap"><input placeholder="Search" name="q" class="q rs-searchbar__input js-searchbar__input" accesskey="s" title="Enter keywords to search topics and headlines. Enclose phrases in double quotes" value="Solana" data-nicetip="{&quot;group&quot;:&quot;ntsearchbar&quot;,&quot;css&quot;:&quot;callout_inhead&quot;}"/>
+   </div>
+   <input type="hidden" name="lang" value="a"/>
+   <input type="hidden" name="path" value=""/>
+   <span class="rs-searchbar__close js-searchbar__close"><i class="fas fa-times"></i></span>
+   <button class="js-searchbar__submit btn--in-form njs" type="submit" name="suggest" value="suggest">Search</button>
+ </form>
+ 
+</div><script>
+   $(document).ready(function () {
+      nn.SuggestInit();
+   });
+</script>               
+               <div class="rs-header__mob-btns js-header__mob-btns">
+                  <div class="rs-header__mob-btns__search js-header__btns__search js-tour-search">
+                     <span class="btn--tertiary btn--tertiary--no-spacing btn--tertiary--icon-only-mob js-searchbar__btn">
+                        <span class="btn--tertiary__icon"><i class="fas fa-search"></i></span>
+                     </span>
+                  </div>
+                  <div class="rs-hamburger js-hamburger">
+                     <span class="rs-hamburger__centre-line"></span>
+                     <span class="rs-header__notification-icon js-header-notification-icon"><i class="fas fa-dot-circle"></i></span>
+                  </div>
+               </div>
+               
+               <nav class="rs-header__btns js-header-btns">
+                  <ul>
+                     <li>
+                        <a class="btn--tertiary btn--tertiary--no-spacing rs-header__btns__search js-header__btns__search js-tour-search">
+                           <span class="btn--tertiary__icon"><i class="fas fa-search"></i></span>
+                           <span class="btn--tertiary__label">Search</span>
+                        </a>
+                     </li>
+                        <li>
+      <a class="btn--tertiary btn--tertiary--no-spacing rs-header__tv" href="/tv">
+      <span class="btn--tertiary__icon"><i class="fas fa-tv"></i></span>
+      <span class="btn--tertiary__label">TV</span>
+      </a>
+   </li>
+                     <li>
+                      <a class="btn--tertiary btn--tertiary--no-spacing rs-header__btns__tour" href="javascript://" onclick="nn.tourManager.start(17);">
+                        <span class="btn--tertiary__icon"><i class="fas fa-info-circle"></i></span>
+                        <span class="btn--tertiary__label">Take a tour</span>
+                      </a>
+                     </li>
+                     <li>
+                      <a class="btn--tertiary btn--tertiary--no-spacing js-feedback" title="Send feedback to NewsNow" href="/contact/?ContactType=7&#38;dbg=%60shttps%3A//www.newsnow.co.uk/h/%3Fsearch%3DSolana%26lang%3Da%26searchheadlines%3D1&#38;utm_source=newsnow&#38;utm_medium=web&#38;utm_campaign=feedback&#38;utm_content=page-header" data-nicetip="{&quot;css&quot;:&quot;callout_inhead&quot;}">
+                        <span class="btn--tertiary__icon"><i class="fas fa-comment"></i></span>
+                        <span class="btn--tertiary__label">Feedback</span>
+                      </a>
+                     </li>
+                     <li>
+   <a class="btn--tertiary btn--tertiary--no-spacing js-profile rs-profile" href="/h/profile/" title="Settings" data-nicetip="{&quot;dir&quot;:&quot;sw&quot;,&quot;css&quot;:&quot;callout_inhead&quot;}"><span class="btn--tertiary__icon"><i class="fas fa-cog"></i></span><span class="btn--tertiary__label">farzan.akhtar1@gmail.com</span><span class="rs-header__notification-icon js-header-notification-icon"><i class="fas fa-dot-circle"></i></span></a>
+</li><li>
+   <a class="btn--tertiary btn--tertiary--no-spacing njs" href="/h/signin/?d=logout&amp;cont=/"><span class="btn--tertiary__icon"><i class="fas fa-user"></i></span><span class="btn--tertiary__label">Sign out</span></a>
+</li>
+                  </ul>
+               </nav>
+              
+               <div class="off">
+                  <a href="#maincontent">Skip to main content</a>
+               </div>
+                  <div id="pmdrop" class="scrollwrapper default_canvas">
+                     <div class="pmdrop_in"></div>
+                     <div class="scrollwrapper_padding"></div>
+                  </div>      
+            </div>
+         </header>
+      <nav class="rs-horiz-nav">
+   <div class="rs-horiz-nav__content c-horizontal-section-menu__frame">
+      <div class="c-horizontal-section-menu__wrap1 " data-was="c-horizontal-section-menu">
+         <div class="c-horizontal-section-menu__wrap2">
+            <nav>
+               <ul class="c-horizontal-section-menu c-horizontal-section-menu--primary section-active">
+                  <li class="c-horizontal-section-menu__item c-horizontal-section-menu__item--uk">
+                     <a href="//www.newsnow.co.uk/h/?utm_source=newsnow&utm_campaign=EditionCrosslink-UK&utm_medium=link&utm_content=HorizontalNav">NewsNow UK</a>
+                  </li>
+                  <li class="c-horizontal-section-menu__item c-horizontal-section-menu__item--us">
+                     <a href="//www.newsnow.com/us/?utm_source=newsnow&utm_campaign=EditionCrosslink-US&utm_medium=link&utm_content=HorizontalNav">NewsNow US</a>
+                  </li>
+                  <li class="c-horizontal-section-menu__item c-horizontal-section-menu__item--ng">
+                     <a href="//www.newsnow.com/ng/?utm_source=newsnow&utm_campaign=EditionCrosslink-NG&utm_medium=link&utm_content=HorizontalNav">NewsNow Nigeria</a>
+                  </li>
+                  <li class="c-horizontal-section-menu__item c-horizontal-section-menu__item--ro">
+                     <a href="//www.newsnow.com/ro/?utm_source=newsnow&utm_campaign=EditionCrosslink-RO&utm_medium=link&utm_content=HorizontalNav">NewsNow România</a>
+                  </li>
+                  <li class="c-horizontal-section-menu__item c-horizontal-section-menu__item--it">
+                     <a href="//www.newsnow.it/h/?utm_source=newsnow&utm_campaign=EditionCrosslink-IT&utm_medium=link&utm_content=HorizontalNav">NewsNow Italia</a>
+                  </li>
+                  <li class="c-horizontal-section-menu__item ">
+   <a href="/h/">
+      Home
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Hot+Topics">
+      Hot Topics
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/UK">
+      UK
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/World+News">
+      World
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/UK/Cost+of+Living">
+      Cost of Living
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/World+News/Europe/Eastern+Europe/Ukraine">
+      Ukraine
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Climate+Change">
+      Climate Crisis
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance">
+      Business
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Sport/Football">
+      Football
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Sport">
+      Sport
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Entertainment+&#38;+Arts">
+      Entertainment
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Technology">
+      Tech
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Science">
+      Science
+   </a>
+</li>
+               </ul>
+               <ul class="c-horizontal-section-menu c-horizontal-section-menu--secondary">
+   <li class="">
+      <span>
+         <a href="/h/my?type=short" class="c-horizontal-section-menu__my-nn" ><span><i class="fas fa-flag"></i></span>My NewsNow</a>
+      </span>
+   </li>
+   <li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=defi&#38;lang=en&#38;searchheadlines=1">
+      Defi
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/DeFi">
+      DeFi (Decentralized Finance)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=blockchain&#38;lang=en&#38;searchheadlines=1">
+      Blockchain
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Blockchain">
+      Blockchain
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies">
+      Cryptocurrencies
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Polygon+%28MATIC%29">
+      Polygon (MATIC)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=bitcoin&#38;lang=en&#38;searchheadlines=1">
+      Bitcoin
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Binance">
+      Binance
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/BNB+Chain">
+      BNB Chain (Binance Smart Chain)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Binance+Coin+%28BNB%29">
+      Binance Coin (BNB)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/UK/Civil+Liberties/Digital+Identity+%28UK%29">
+      Digital Identity (UK)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Technology/Cyber+Security">
+      Cyber Security
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=cybersecurity&#38;lang=en&#38;searchheadlines=1">
+      Cybersecurity
+   </a>
+</li>
+</ul>
+            </nav>
+         </div>
+      </div>
+      <div class="c-horizontal-section-menu__grad"></div>
+         <div class="c-horizontal-section-menu__btns">
+            <a class="c-horizontal-section-menu__btn c-horizontal-section-menu__btn--left" href="#"><i class="fas fa-angle-left"></i></a>
+            <a class="c-horizontal-section-menu__btn c-horizontal-section-menu__btn--right" href="#"><i class="fas fa-angle-right"></i></a>
+         </div>
+      
+   </div>
+</nav>
+<script>
+   $(document).ready(function () {
+      nn.horizontalMenu.init();
+   });
+</script>
+      <div class="rs-clickcapture rs-clickcapture--off js-clickcapture"></div>
+   </div>
+
+   <div class="rs-grid__banner js-grid-banner">
+      <div id="ptop" class="rs-banner-strip js-banner-strip">
+         <div class="js-ad-frame js-ad-frame-desktop rs-ad-frame rs-ad-frame__desktop rs-ad-frame__desktop--leaderboard"> 
+   <div class="rs-ad-frame__label">
+      Advertisement
+   </div>
+   <div id="ad_1" class="rs-ad-slot">
+   </div>
+</div>
+      </div>
+      <script>
+   nn.addJob(0, function() { nn.ClickCapture.init(); });
+   $(document).ready(function() {
+      nn.SetupHamburgerButton();
+   });
+</script>
+   </div>
+
+   <main class="rs-grid__main js-maincontent">
+      <a name="maincontent"></a>
+      <div class="rs-topic-heading js-topic-heading">
+   <div class="rs-topic-heading__row-1">
+      <h1 class="heading-1 "><a class="rs-topic-heading__link js-topic-heading-link" href="/h/?search=Solana&#38;lang=a&#38;searchheadlines=1">Solana</a></h1>
+      <span class="rs-topic-heading__controls">
+         <a href="javascript://" onclick="nn.Favourites.fav(this)" data-fav="{&quot;n&quot;:&quot;0&quot;,&quot;s&quot;:&quot;Solana&quot;,&quot;l&quot;:&quot;a&quot;}" class="js favourite js-follow-btn rs-follow-btn rs-follow-btn--not-following" title="Follow this topic"><span><i class="rs-follow-btn__icon js-follow-icon--following rs-follow-btn__icon--inactive fas fa-star"></i><i class="rs-follow-btn__icon js-follow-icon--not-following rs-follow-btn--not-following__icon far fa-star"></i></span></a>
+      </span>
+   </div>
+   <div class="rs-topic-heading__row-2">Search all headlines (in All languages)</div>
+   
+</div><div class="rs-newsbox js-newsbox js-newsbox-raw  js-newsmain js-central_ln_wrap "  >
+   
+   
+     <ul class="rs-tabs">
+    <li class="rs-tab ptype-latestnews rs-tab--active rs-tab--no-spacing"><a class="rs-tab__link" href="/h/?search=Solana&#38;lang=a&#38;searchheadlines=1">   Latest <span class='rs-tab__link__extra'>News</span></a></li>
+    
+  </ul><form name="language" class="language_selector"  method="get" action="/h/ajax/search-redir" accept-charset="UTF-8">
+  <input type="hidden" name="q" value="Solana" />
+  <input type="hidden" name="t" value="202" />
+  <input type="hidden" name="ghs" value="1" />
+  <label for="language_selector" accesskey="l">Language:</label>
+  <select id="language_selector" name="lang" onchange="this.form.submit()"><option value="a" selected="selected">All languages</option>
+<option value="en" >English</option>
+<option disabled="disabled" value=""><!-- --></option><option value="nl" >Dutch</option>
+<option value="fr" >French</option>
+<option value="de" >German</option>
+<option value="it" >Italian</option>
+<option value="no" >Norwegian</option>
+<option value="pt" >Portuguese</option>
+<option value="ro" >Romanian</option>
+<option value="es" >Spanish</option>
+<option value="sv" >Swedish</option>
+</select>
+  <input class="njs" type="submit" value="Search"/>
+</form><div class="newsfeed " data-config="{&quot;lengths&quot;:[115,&quot;all&quot;],&quot;ajax&quot;:true,&quot;init&quot;:0,&quot;addts&quot;:true,&quot;click_context&quot;:&quot;latest_news&quot;}" data-more="1LUOLaQKm9Tf1YNe0pvx0Z27yEJBOCqRi9sW692JaLv5orD/xxHt3chYPXUlAc5g9oAbinu1TFSlcIHgt8YNIGCZJEMzPQ8f2sYKJn1iBGrvHV4u1qv37e96DJn08PZD4jVAZ2dGxU5U=">
+  <div class="rs-time-slot js-time-slot--server">In the last hour</div>
+<div class="hl " data-id="1189478196">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189478196?-:" target="_blank" rel="nofollow">Ethereum and <span class="hlsh">Solana</span> Left in the Dust: Polygon Gears Up for Price Supernova</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1690034806">15:06</span></span></div>
+</div><div class="rs-time-slot js-time-slot--server">In the last 4 hours</div>
+<div class="hl " data-id="1189465766">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189465766?-:" target="_blank" rel="nofollow">Rising Giant Polygon: Daily Active User Count Eclipses Ethereum and <span class="hlsh">Solana</span></a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1690023773">12:02</span></span></div>
+</div><div class="rs-time-slot js-time-slot--server">In the last 6 hours</div>
+<div class="hl " data-id="1189463277">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189463277?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Records One Outage in 2023 First Half, 100% uptime in the Second Quarter</a> <span class="meta"><span class="src src-part" data-pub="TECHREPORT">The Tech Report<i class="fas fa-cog"></i></span><span class="time" data-time="1690020988">11:16</span></span></div>
+</div><div class="rs-time-slot js-time-slot--server">In the last 8 hours</div>
+<div class="hl " data-id="1189452091">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189452091?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span>, Polygon Lead $30M Million Raise On Metaverse Firm Cosmic Wire</a> <span class="meta"><span class="src src-part" data-pub="METANEWS">MetaNews<i class="fas fa-cog"></i></span><span class="time" data-time="1690009549">08:05</span></span></div>
+</div><div class="rs-time-slot js-time-slot--server">Earlier today</div>
+<div class="hl " data-id="1189445884">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189445884?-:" target="_blank" rel="nofollow">Polygon Daily Users Surpass Ethereum, <span class="hlsh">Solana</span> As DeFi Activity Grows</a> <span class="meta"><span class="src src-part" data-pub="BITCOINWORLD">BitcoinWorld<i class="fas fa-cog"></i></span><span class="time" data-time="1690001483">05:51</span></span></div>
+</div><div class="rs-time-slot js-time-slot--server">Yesterday</div>
+<div class="hl " data-id="1189403996">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189403996?-:" target="_blank" rel="nofollow">Perfect Uptime Paves the Way for <span class="hlsh">Solana</span>&#8217;s Breakthrough to $40</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689963904">19:25 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189386503">
+   <span class="f f_BG" c="BG"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189386503?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Network Hasn&#8217;t Gone Down in 5 Months: Report</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOPOTATOCOM">CryptoPotato.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689955562">17:06 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189380781">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189380781?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Price Analysis: Here&#8217;s Why $SOL Price Recovery could Surpass $32</a> <span class="meta"><span class="src src-part" data-pub="COINGAPE">CoinGape<i class="fas fa-cog"></i></span><span class="time" data-time="1689953603">16:33 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189372018">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189372018?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Foundation releases its performance report</a> <span class="meta"><span class="src src-part" data-pub="FINEXPRESS">The Financial Express<i class="fas fa-cog"></i></span><span class="time" data-time="1689950077">15:34 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189346384">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189346384?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Performance Report Boasts Zero Outages in Q2</a> <span class="meta"><span class="src src-part" data-pub="BEINCRYPTO">BeInCrypto<i class="fas fa-cog"></i></span><span class="time" data-time="1689939300">12:35 21-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1189323519">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189323519?-:" target="_blank" rel="nofollow">Crypto Price Today: Bitcoin falls below $30,000; XRP, <span class="hlsh">Solana</span> shed up to 5%</a> <span class="meta"><span class="src src-part" data-pub="THEECONOMICTIMES">The Economic Times<i class="fas fa-cog"></i></span><span class="time" data-time="1689928907">09:41 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189317500">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189317500?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> network achieves outstanding performance with 100% uptime in Q2</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOPOLITAN">Cryptopolitan<i class="fas fa-cog"></i></span><span class="time" data-time="1689925206">08:40 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189306921">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189306921?-:" target="_blank" rel="nofollow">Today's cryptocurrency prices: Rates of Bitcoin, Ethereum, <span class="hlsh">Solana</span>, Dogecoin</a> <span class="meta"><span class="src src-part" data-pub="NEWSBYTES">NewsBytes<i class="fas fa-cog"></i></span><span class="time" data-time="1689917464">06:31 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189303738">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189303738?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> records 1 outage in first half of 2023, 100% uptime in Q2</a> <span class="meta"><span class="src src-part" data-pub="COINTELEGRAPH">Cointelegraph<i class="fas fa-cog"></i></span><span class="time" data-time="1689914454">05:40 21-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189298936">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189298936?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Foundation: <span class="hlsh">Solana</span> Experienced No Downtime Since February</a> <span class="meta"><span class="src src-part" data-pub="COINMARKETCAP">CoinMarketCap Alexandria<i class="fas fa-cog"></i></span><span class="time" data-time="1689909502">04:18 21-Jul-23</span></span></div>
+</div><div class="rs-time-slot js-time-slot--server">In the last 7 days</div>
+<div class="hl " data-id="1189276694">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189276694?-:" target="_blank" rel="nofollow">Rising from the Ashes: Is <span class="hlsh">Solana</span> Set to Stun the Blockchain World?</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689888712">22:31 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189265131">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189265131?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Is Down Meme Dead? Devs Say Network Had 100% Uptime Since Feb</a> <span class="meta"><span class="src src-part" data-pub="DECRYPT">Decrypt<i class="fas fa-cog"></i></span><span class="time" data-time="1689882499">20:48 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189263132">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189263132?-:" target="_blank" rel="nofollow">&#8216;Blast radius&#8217; of new users joining <span class="hlsh">Solana</span> DeFi for the points, liquidity is &#8216;snowballing&#8217;</a> <span class="meta"><span class="src src-part" data-pub="BLOCKWORKS">Blockworks<i class="fas fa-cog"></i></span><span class="time" data-time="1689881394">20:29 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189257548">
+   <span class="f f_SG" c="SG"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189257548?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Outshines Ethereum in Crucial Metric, DigiToads Presale Breaks the $6.2 Million Mark</a> <span class="meta"><span class="src src-part" data-pub="METAVERSEPOST">Metaverse Post<i class="fas fa-cog"></i></span><span class="time" data-time="1689878620">19:43 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189255705">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189255705?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Price Analysis July Week 3 to 4</a> <span class="meta"><span class="src src-part" data-pub="CRYPTONEWSLAND">Crypto News Land<i class="fas fa-cog"></i></span><span class="time" data-time="1689877739">19:28 20-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1189255299">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189255299?-:" target="_blank" rel="nofollow">Blockchain infrastructure startup Cosmic Wire raises $30M led by <span class="hlsh">Solana</span> and Polygon</a> <span class="meta"><span class="src src-part" data-pub="SILICONANGLE">SiliconANGLE<i class="fas fa-cog"></i></span><span class="time" data-time="1689877539">19:25 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189215225">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189215225?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Network Performance Improves Throughout 1H 2023</a> <span class="meta"><span class="src src-part" data-pub="PRNEWS">PR Newswire (Press Release)<i class="fas fa-cog"></i></span><span class="time" data-time="1689862693">15:18 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189206204">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189206204?-:" target="_blank" rel="nofollow">As <span class="hlsh">Solana</span> &#38; DigiToads Trading Volume Gain Massive Traction, This is a Great Time to Invest in TOADS</a> <span class="meta"><span class="src src-part" data-pub="COINPEDIA">Coinpedia<i class="fas fa-cog"></i></span><span class="time" data-time="1689859192">14:19 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189205803">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189205803?-:" target="_blank" rel="nofollow">Neon EVM Launches on <span class="hlsh">Solana</span> Mainnet</a> <span class="meta"><span class="src src-part" data-pub="KOINALERT">Koinalert<i class="fas fa-cog"></i></span><span class="time" data-time="1689859043">14:17 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189204549">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189204549?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Outages Gone? Network Boasts 100% Uptime in Q2</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOBRIEFING">Crypto Briefing<i class="fas fa-cog"></i></span><span class="time" data-time="1689858584">14:09 20-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1189188920">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189188920?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Riding High: Is $40 Price Target in Sight Following Breakout?</a> <span class="meta"><span class="src src-part" data-pub="BEINCRYPTO">BeInCrypto<i class="fas fa-cog"></i></span><span class="time" data-time="1689852579">12:29 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189183695">
+   <span class="f f_ZA" c="ZA"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189183695?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Energy and South32 uplifts KZN communities with six solar installations</a> <span class="meta"><span class="src src-part" data-pub="MININGWEEKLY">Mining Weekly (Video)<i class="fas fa-cog"></i></span><span class="time" data-time="1689851088">12:04 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189167388">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189167388?-:" target="_blank" rel="nofollow">Pioneering Web3 Innovation: <span class="hlsh">Solana</span> Foundation Fuels Cosmic Wire with $30M Investment</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689844726">10:18 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189164218">
+   <span class="f f_CY" c="CY"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189164218?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span>&#8217;s (SOL) price surges 40%, DigiToads (TOADS) appears as the most lucrative meme coin investment for this summer</a> <span class="meta"><span class="src src-part" data-pub="CYPRUSMAIL">Cyprus Mail<i class="fas fa-cog"></i></span><span class="time" data-time="1689843277">09:54 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189157469">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189157469?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Rolls Out Solang Compiler, Enhances Ethereum Compatibility</a> <span class="meta"><span class="src src-part" data-pub="CRYPTODAILY">CryptoDaily<i class="fas fa-cog"></i></span><span class="time" data-time="1689839333">08:48 20-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1189155452">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189155452?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Broadens Accessibility for Ethereum&#8217;s Solidity Developers with Solang</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOPOLITAN">Cryptopolitan<i class="fas fa-cog"></i></span><span class="time" data-time="1689838035">08:27 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189143161">
+   <span class="f f_KN" c="KN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189143161?-:" target="_blank" rel="nofollow">BitKeep (Bitget Wallet) Partners With the <span class="hlsh">Solana</span> Foundation to Drive Growth in Web3</a> <span class="meta"><span class="src src-part" data-pub="BITCOINCOM">Bitcoin.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689829375">06:02 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189134781">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189134781?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Gearing Up for Monumental Surge, Ethereum on the Verge of a &#8216;Glorious&#8217; Breakout, Predicts Top Trader</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689820861">03:41 20-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189115381">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189115381?-:" target="_blank" rel="nofollow">Polygon and <span class="hlsh">Solana</span> Foundation lead $30 million seed round in crypto startup</a> <span class="meta"><span class="src src-part" data-pub="THEBLOCKCRYPTO">The Block<i class="fas fa-cog"></i></span><span class="time" data-time="1689803642">22:54 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189078436">
+   <span class="f f_EU" c="EU"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189078436?-:" target="_blank" rel="nofollow">Ethereum competitor <span class="hlsh">Solana</span> introduces new compiler to attract developers from ETH ecosystem</a> <span class="meta"><span class="src src-part" data-pub="FXSTREET">FXstreet<i class="fas fa-cog"></i></span><span class="time" data-time="1689785279">17:47 19-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1189075017">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189075017?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Introduces Solidity-Compatible Development Tool</a> <span class="meta"><span class="src src-part" data-pub="COINGAPE">CoinGape<i class="fas fa-cog"></i></span><span class="time" data-time="1689783906">17:25 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189074110">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189074110?-:" target="_blank" rel="nofollow">Ferrante&#8217;s Take on <span class="hlsh">Solana</span>: Breeding Ground for Next-Gen NFT Innovations</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689783545">17:19 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189070978">
+   <span class="f f_CH" c="CH"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189070978?-:" target="_blank" rel="nofollow">Marinade&#8217;s Native SOL Staking Aims at Decentralizing <span class="hlsh">Solana</span></a> <span class="meta"><span class="src src-part" data-pub="DAILYCOIN">DailyCoin<i class="fas fa-cog"></i></span><span class="time" data-time="1689782590">17:03 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189070753">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189070753?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Labs Introduces GameShift to Simplify Web3 Game Production</a> <span class="meta"><span class="src src-part" data-pub="PRNEWS">PR Newswire (Press Release)<i class="fas fa-cog"></i></span><span class="time" data-time="1689782516">17:01 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189067299">
+   <span class="f f_PK" c="PK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189067299?-:" target="_blank" rel="nofollow">CoinGecko: Bitcoin Trading Volume Falls, USDT Adds $3B, &#38; <span class="hlsh">Solana</span> Loses NFT Volume</a> <span class="meta"><span class="src src-part" data-pub="THECRYPTOBASIC">The Crypto Basic<i class="fas fa-cog"></i></span><span class="time" data-time="1689781266">16:41 19-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1189066602">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189066602?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Launches New Tool for Developers: Details</a> <span class="meta"><span class="src src-part" data-pub="UTODAY">U.Today<i class="fas fa-cog"></i></span><span class="time" data-time="1689781015">16:36 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189063909">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189063909?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Wants More Games&#8212;This Simple Tool Could Help Developers</a> <span class="meta"><span class="src src-part" data-pub="DECRYPT">Decrypt<i class="fas fa-cog"></i></span><span class="time" data-time="1689780012">16:20 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189063490">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189063490?-:" target="_blank" rel="nofollow">Ethereum&#8217;s Solidity Developers Have Bridge to <span class="hlsh">Solana</span> via Solang</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOBRIEFING">Crypto Briefing<i class="fas fa-cog"></i></span><span class="time" data-time="1689779868">16:17 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189048295">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189048295?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Labs rolls out Solang compiler to enhance Ethereum compatibility</a> <span class="meta"><span class="src src-part" data-pub="THEBLOCKCRYPTO">The Block<i class="fas fa-cog"></i></span><span class="time" data-time="1689774911">14:55 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189046411">
+   <span class="f f_SG" c="SG"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189046411?-:" target="_blank" rel="nofollow">Web3 Infrastructure Company Cosmic Wire Raises $30M in Seed Round Led by Polygon and <span class="hlsh">Solana</span> Foundation</a> <span class="meta"><span class="src src-part" data-pub="METAVERSEPOST">Metaverse Post<i class="fas fa-cog"></i></span><span class="time" data-time="1689774164">14:42 19-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1189026806">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189026806?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> must flip this level so bulls can &#8216;have their fun again&#8217;</a> <span class="meta"><span class="src src-part" data-pub="FINANCEINBOLD">Finance in Bold<i class="fas fa-cog"></i></span><span class="time" data-time="1689766633">12:37 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1189020870">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189020870?-:" target="_blank" rel="nofollow">The 10 Best <span class="hlsh">Solana</span> NFT Marketplaces</a> <span class="meta"><span class="src src-part" data-pub="MAKEUSEOF">MakeUseOf<i class="fas fa-cog"></i></span><span class="time" data-time="1689764567">12:02 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188988009">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188988009?-:" target="_blank" rel="nofollow">Neopets won&#8217;t be a metaverse filled with <span class="hlsh">Solana</span> NFTs after all</a> <span class="meta"><span class="src src-part" data-pub="BLOCKWORKS">Blockworks<i class="fas fa-cog"></i></span><span class="time" data-time="1689755177">09:26 19-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188914236">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188914236?-:" target="_blank" rel="nofollow">Instead of killing competitors, let&#8217;s grow the crypto pie &#8212; <span class="hlsh">Solana</span> developer Ferrante</a> <span class="meta"><span class="src src-part" data-pub="BLOCKWORKS">Blockworks<i class="fas fa-cog"></i></span><span class="time" data-time="1689702523">18:48 18-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188871693">
+   <span class="f f_CH" c="CH"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188871693?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Generates Excitement as Cardano Flip Edges Closer</a> <span class="meta"><span class="src src-part" data-pub="DAILYCOIN">DailyCoin<i class="fas fa-cog"></i></span><span class="time" data-time="1689687170">14:32 18-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188870284">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188870284?-:" target="_blank" rel="nofollow">Is <span class="hlsh">Solana</span> (SOL) Price Primed for $40 Following Recent Breakout?</a> <span class="meta"><span class="src src-part" data-pub="BEINCRYPTO">BeInCrypto<i class="fas fa-cog"></i></span><span class="time" data-time="1689686573">14:22 18-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188814134">
+   <span class="f f_SG" c="SG"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188814134?-:" target="_blank" rel="nofollow">Neon Labs Launches Neon EVM: Enabling Ethereum Applications on <span class="hlsh">Solana</span> Blockchain</a> <span class="meta"><span class="src src-part" data-pub="METAVERSEPOST">Metaverse Post<i class="fas fa-cog"></i></span><span class="time" data-time="1689659811">06:56 18-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188804196">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188804196?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Paints a Promising Picture with Surging TVL and Rising Price</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689650199">04:16 18-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188771277">
+   <span class="f f_DE" c="DE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188771277?-:" target="_blank" rel="nofollow">Top 3 Reasons why <span class="hlsh">Solana</span> is a Good Buy TODAY</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOTICKER">CryptoTicker<i class="fas fa-cog"></i></span><span class="time" data-time="1689623964">20:59 17-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188758650">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188758650?-:" target="_blank" rel="nofollow">Bridging the Gap Between <span class="hlsh">Solana</span> and Ethereum: Neon EVM Debuts on <span class="hlsh">Solana</span> Mainnet</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOBRIEFING">Crypto Briefing<i class="fas fa-cog"></i></span><span class="time" data-time="1689616954">19:02 17-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188751435">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188751435?-:" target="_blank" rel="nofollow">Neon Labs releases EVM to bring support for Ethereum apps on <span class="hlsh">Solana</span></a> <span class="meta"><span class="src src-part" data-pub="THEBLOCKCRYPTO">The Block<i class="fas fa-cog"></i></span><span class="time" data-time="1689613434">18:03 17-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188735500">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188735500?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Faces Increased Selling Pressure &#8211; Here&#8217;s Why This Support Is Crucial For SOL Price</a> <span class="meta"><span class="src src-part" data-pub="COINPEDIA">Coinpedia<i class="fas fa-cog"></i></span><span class="time" data-time="1689606949">16:15 17-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188719653">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188719653?-:" target="_blank" rel="nofollow">Cardano (ADA) Network&#8217;s Report Card - <span class="hlsh">Solana</span> (SOL) Seeks NFT Support As Tradecurve Makes Market &#133;</a> <span class="meta"><span class="src src-part" data-pub="CRYPTODAILY">CryptoDaily<i class="fas fa-cog"></i></span><span class="time" data-time="1689601213">14:40 17-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188718378">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188718378?-:" target="_blank" rel="nofollow">Trending Coins You Should Buy for 100x Gains: <span class="hlsh">Solana</span>, Tradecurve, and Aave</a> <span class="meta"><span class="src src-part" data-pub="HINDUSTANTIMES">Hindustan Times<i class="fas fa-cog"></i></span><span class="time" data-time="1689600689">14:31 17-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188663070">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188663070?-:" target="_blank" rel="nofollow">Cryptocurrency prices today: Check rates of Bitcoin, Ethereum, XRP, <span class="hlsh">Solana</span></a> <span class="meta"><span class="src src-part" data-pub="NEWSBYTES">NewsBytes<i class="fas fa-cog"></i></span><span class="time" data-time="1689571697">06:28 17-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188658926">
+   <span class="f f_PH" c="PH"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188658926?-:" target="_blank" rel="nofollow">Donny Pangilinan treats sister <span class="hlsh">Solana</span> on her birthday</a> <span class="meta"><span class="src src-part" data-pub="ABSCBNNEWS">ABS-CBNnews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689567079">05:11 17-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188550045">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188550045?-:" target="_blank" rel="nofollow">This Week in Coins: XRP Leads Alt Week as <span class="hlsh">Solana</span>, Cardano and Polygon Outperform Bitcoin and&#133;</a> <span class="meta"><span class="src src-part" data-pub="DECRYPT">Decrypt<i class="fas fa-cog"></i></span><span class="time" data-time="1689438957">17:35 15-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188543300">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188543300?-:" target="_blank" rel="nofollow">What&#8217;s Next for <span class="hlsh">Solana</span> Price After a 120% Surge?</a> <span class="meta"><span class="src src-part" data-pub="COINGAPE">CoinGape<i class="fas fa-cog"></i></span><span class="time" data-time="1689433281">16:01 15-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188520693">
+   <span class="f f_DE" c="DE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188520693?-:" target="_blank" rel="nofollow">Ripple, Cardano, <span class="hlsh">Solana</span>: Kurse steigen bis zu 95 Prozent &#8211; Altcoins feiern Comeback</a> <span class="meta"><span class="src src-part" data-pub="HANDELSBLATTGERMANY">Handelsblatt<i class="fas fa-cog"></i></span><span class="time" data-time="1689412923">10:22 15-Jul-23</span></span></div>
+</div><div class="rs-time-slot js-time-slot--server">In the last month</div>
+<div class="hl " data-id="1188477743">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188477743?-:" target="_blank" rel="nofollow">Coinbase Restricts Ethereum, <span class="hlsh">Solana</span> Staking in Four US States</a> <span class="meta"><span class="src src-part" data-pub="DECRYPT">Decrypt<i class="fas fa-cog"></i></span><span class="time" data-time="1689366293">21:24 14-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188463208">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188463208?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Price Reaches New Yearly High After 120% Increase</a> <span class="meta"><span class="src src-part" data-pub="BEINCRYPTO">BeInCrypto<i class="fas fa-cog"></i></span><span class="time" data-time="1689357935">19:05 14-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188454783">
+   <span class="f f_EU" c="EU"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188454783?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> hits new milestone as Total Value Locked hits 2023 high of $1.1 billion</a> <span class="meta"><span class="src src-part" data-pub="FXSTREET">FXstreet<i class="fas fa-cog"></i></span><span class="time" data-time="1689353770">17:56 14-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188452805">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188452805?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> price hits a 2023 high, but do strong fundamentals back the SOL rally?</a> <span class="meta"><span class="src src-part" data-pub="COINTELEGRAPH">Cointelegraph<i class="fas fa-cog"></i></span><span class="time" data-time="1689352746">17:39 14-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188440546">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188440546?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Dog Coin Bonk (BONK) Surprises With 20% Price Gains: Details</a> <span class="meta"><span class="src src-part" data-pub="UTODAY">U.Today<i class="fas fa-cog"></i></span><span class="time" data-time="1689347777">16:16 14-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188371581">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188371581?-:" target="_blank" rel="nofollow">Cryptocurrency prices today: XRP gains 67%, <span class="hlsh">Solana</span> moves up 32%</a> <span class="meta"><span class="src src-part" data-pub="NEWSBYTES">NewsBytes<i class="fas fa-cog"></i></span><span class="time" data-time="1689314129">06:55 14-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188362071">
+   <span class="f f_AU" c="AU"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188362071?-:" target="_blank" rel="nofollow">XRP court victory sparks Altcoin Rally: <span class="hlsh">Solana</span>, Cardano, Polygon record double-digit gains</a> <span class="meta"><span class="src src-part wrap" data-pub="PROACTIVEINVESTORSAU">Proactive Investors (Australia)<i class="fas fa-cog"></i></span><span class="time" data-time="1689304861">04:21 14-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188360167">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188360167?-:" target="_blank" rel="nofollow">Ethereum Ahead of Cardano, <span class="hlsh">Solana</span> in ESG Rankings, Bitcoin Fell Behind Due to Energy&#133;</a> <span class="meta"><span class="src src-part" data-pub="COINMARKETCAP">CoinMarketCap Alexandria<i class="fas fa-cog"></i></span><span class="time" data-time="1689302745">03:45 14-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188323501">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188323501?-:" target="_blank" rel="nofollow">Why Coinbase, Cardano, and <span class="hlsh">Solana</span> Are Rising Today</a> <span class="meta"><span class="src src-part" data-pub="MOTLEYFOOL">The Motley Fool<i class="fas fa-cog"></i></span><span class="time" data-time="1689275626">20:13 13-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188316874">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188316874?-:" target="_blank" rel="nofollow">Did XRP Restart Alt Season? <span class="hlsh">Solana</span>, Cardano, Polygon Up Double Digits</a> <span class="meta"><span class="src src-part" data-pub="DECRYPT">Decrypt<i class="fas fa-cog"></i></span><span class="time" data-time="1689272251">19:17 13-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188310960">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188310960?-:" target="_blank" rel="nofollow">Ethereum ($ETH) Tops Crypto ESG Ranking, Ahead of <span class="hlsh">Solana</span> ($SOL), Cardano ($ADA), and $XRP</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOGLOBE">CryptoGlobe<i class="fas fa-cog"></i></span><span class="time" data-time="1689269365">18:29 13-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188284532">
+   <span class="f f_CH" c="CH"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188284532?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Ecosystem Expands: Helius Launches New Tool for Developers</a> <span class="meta"><span class="src src-part" data-pub="DAILYCOIN">DailyCoin<i class="fas fa-cog"></i></span><span class="time" data-time="1689259144">15:39 13-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188277235">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188277235?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Shakes Off Regulatory Pushback from Q2, Strengths Commitment to Pioneering DeFi Adoption</a> <span class="meta"><span class="src src-part" data-pub="ZYCRYPTO">ZyCrypto<i class="fas fa-cog"></i></span><span class="time" data-time="1689256738">14:58 13-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188252898">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188252898?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Q2 Performance, Here's Role Played by Its First Meme Coin</a> <span class="meta"><span class="src src-part" data-pub="UTODAY">U.Today<i class="fas fa-cog"></i></span><span class="time" data-time="1689248033">12:33 13-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188238188">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188238188?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> jumps 40% in a month despite SEC action and delistings</a> <span class="meta"><span class="src src-part" data-pub="FINANCEINBOLD">Finance in Bold<i class="fas fa-cog"></i></span><span class="time" data-time="1689242005">10:53 13-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188234320">
+   <span class="f f_EU" c="EU"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188234320?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> price eyes 15% nosedive after recent development in FTX bankruptcy case</a> <span class="meta"><span class="src src-part" data-pub="FXSTREET">FXstreet<i class="fas fa-cog"></i></span><span class="time" data-time="1689240027">10:20 13-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188190485">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188190485?-:" target="_blank" rel="nofollow">Crypto community with 92% historical accuracy sets <span class="hlsh">Solana</span> price for July 31</a> <span class="meta"><span class="src src-part" data-pub="FINANCEINBOLD">Finance in Bold<i class="fas fa-cog"></i></span><span class="time" data-time="1689203462">00:11 13-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188184844">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188184844?-:" target="_blank" rel="nofollow">NY Prosecutor Charges Cybersecurity Expert with $9 Million for Exploiting <span class="hlsh">Solana</span>-based Crypto Exchange</a> <span class="meta"><span class="src src-part" data-pub="TECHREPORT">The Tech Report<i class="fas fa-cog"></i></span><span class="time" data-time="1689199203">23:00 12-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188149706">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188149706?-:" target="_blank" rel="nofollow">First-of-its-Kind: Security Engineer Arrested for $9 Million <span class="hlsh">Solana</span> DeFi Hack</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689181537">18:05 12-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188128599">
+   <span class="f f_CH" c="CH"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188128599?-:" target="_blank" rel="nofollow">Why a <span class="hlsh">Solana</span> DEX Dev Was Arrested for Unprecedented SC Attack</a> <span class="meta"><span class="src src-part" data-pub="DAILYCOIN">DailyCoin<i class="fas fa-cog"></i></span><span class="time" data-time="1689174060">16:01 12-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188127505">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188127505?-:" target="_blank" rel="nofollow">Will <span class="hlsh">Solana</span> Price Hit $30 Again; Bullish Pattern Sparks Fresh Recovery for $SOL Buyers</a> <span class="meta"><span class="src src-part" data-pub="COINGAPE">CoinGape<i class="fas fa-cog"></i></span><span class="time" data-time="1689173670">15:54 12-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188071805">
+   <span class="f f_SG" c="SG"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188071805?-:" target="_blank" rel="nofollow">Former Security Engineer Arrested for $9M Heist from <span class="hlsh">Solana</span> Blockchain</a> <span class="meta"><span class="src src-part" data-pub="METAVERSEPOST">Metaverse Post<i class="fas fa-cog"></i></span><span class="time" data-time="1689152659">10:04 12-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188064089">
+   <span class="f f_DE" c="DE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188064089?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Price Prediction for August 2023 according to an AI Bot</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOTICKER">CryptoTicker<i class="fas fa-cog"></i></span><span class="time" data-time="1689148096">08:48 12-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188055281">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188055281?-:" target="_blank" rel="nofollow">New York prosecutor charges hacker over $9M exploit of <span class="hlsh">Solana</span>-based exchange</a> <span class="meta"><span class="src src-part" data-pub="COINTELEGRAPH">Cointelegraph<i class="fas fa-cog"></i></span><span class="time" data-time="1689141831">07:03 12-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1188005745">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188005745?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Ascends the Throne: The New King of Crypto Market, Outshining BTC, ETH, and BNB</a> <span class="meta"><span class="src src-part" data-pub="CRYPTONEWSLAND">Crypto News Land<i class="fas fa-cog"></i></span><span class="time" data-time="1689103491">20:24 11-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1188003042">
+   <span class="f f_EU" c="EU"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1188003042?-:" target="_blank" rel="nofollow">US SDNY attorney files first ever DEX-operated smart contract criminal case, $9M stolen from <span class="hlsh">Solana</span>-based DEX</a> <span class="meta"><span class="src src-part" data-pub="FXSTREET">FXstreet<i class="fas fa-cog"></i></span><span class="time" data-time="1689102243">20:04 11-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187989698">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187989698?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Price Breaks 600-Day Bearish Pattern: Bullish Sign for Investors</a> <span class="meta"><span class="src src-part" data-pub="BEINCRYPTO">BeInCrypto<i class="fas fa-cog"></i></span><span class="time" data-time="1689095975">18:19 11-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187936253">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187936253?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Emerges as a Formidable Ethereum Competitor, Predicts Raoul Pal</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1689076932">13:02 11-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187889178">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187889178?-:" target="_blank" rel="nofollow">Veteran Investor Raoul Pal Predicts A 20x Rally in <span class="hlsh">Solana</span> (SOL) Price</a> <span class="meta"><span class="src src-part" data-pub="COINGAPE">CoinGape<i class="fas fa-cog"></i></span><span class="time" data-time="1689052590">06:16 11-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187830434">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187830434?-:" target="_blank" rel="nofollow">Sunland Park Mall sold, renamed The Shops at <span class="hlsh">Solana</span></a> <span class="meta"><span class="src src-part" data-pub="KVIAABC7">KVIA ABC 7<i class="fas fa-cog"></i></span><span class="time" data-time="1689010207">18:30 10-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1187808686">
+   <span class="f f_CH" c="CH"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187808686?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span>&#8217;s Bullish Run to $25 Meets Resistance: What&#8217;s Next?</a> <span class="meta"><span class="src src-part" data-pub="DAILYCOIN">DailyCoin<i class="fas fa-cog"></i></span><span class="time" data-time="1689001706">16:08 10-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187797987">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187797987?-:" target="_blank" rel="nofollow">Machine learning algorithm sets <span class="hlsh">Solana</span> price for July 31, 2023</a> <span class="meta"><span class="src src-part" data-pub="FINANCEINBOLD">Finance in Bold<i class="fas fa-cog"></i></span><span class="time" data-time="1688997722">15:02 10-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187755541">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187755541?-:" target="_blank" rel="nofollow">Bitcoin falls below $30,100; Litecoin, <span class="hlsh">Solana</span> plunge over 3%</a> <span class="meta"><span class="src src-part" data-pub="THEECONOMICTIMES">The Economic Times<i class="fas fa-cog"></i></span><span class="time" data-time="1688980027">10:07 10-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187709888">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187709888?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Price Analysis: Will $SOL Price Surpass $27 Amidst Current Recovery Cycle?</a> <span class="meta"><span class="src src-part" data-pub="COINGAPE">CoinGape<i class="fas fa-cog"></i></span><span class="time" data-time="1688932255">20:50 9-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187669305">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187669305?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Pierces Resistance: Next Targets Are Here</a> <span class="meta"><span class="src src-part" data-pub="UTODAY">U.Today<i class="fas fa-cog"></i></span><span class="time" data-time="1688896404">10:53 9-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1187668759">
+   <span class="f f_DE" c="DE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187668759?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Volume Boosted by $1 Billion&#8230;<span class="hlsh">Solana</span> Price UP soon?</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOTICKER">CryptoTicker<i class="fas fa-cog"></i></span><span class="time" data-time="1688895862">10:44 9-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187629406">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187629406?-:" target="_blank" rel="nofollow">This Week in Coins: <span class="hlsh">Solana</span> Surges as Bitcoin and Ethereum Rally Rebound</a> <span class="meta"><span class="src src-part" data-pub="DECRYPT">Decrypt<i class="fas fa-cog"></i></span><span class="time" data-time="1688842147">19:49 8-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187614935">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187614935?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Price Recovery: Analyst Sets $27 Price Target for $SOL</a> <span class="meta"><span class="src src-part" data-pub="COINGAPE">CoinGape<i class="fas fa-cog"></i></span><span class="time" data-time="1688829468">16:17 8-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187597031">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187597031?-:" target="_blank" rel="nofollow">Over $1 billion inflows into <span class="hlsh">Solana</span> in a day; Why SOL is pumping</a> <span class="meta"><span class="src src-part" data-pub="FINANCEINBOLD">Finance in Bold<i class="fas fa-cog"></i></span><span class="time" data-time="1688813636">11:53 8-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187595149">
+   <span class="f f_EU" c="EU"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187595149?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> price up 25%, expert says FUD is driving the rally</a> <span class="meta"><span class="src src-part" data-pub="FXSTREET">FXstreet<i class="fas fa-cog"></i></span><span class="time" data-time="1688812148">11:29 8-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1187591765">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187591765?-:" target="_blank" rel="nofollow">L&#8217;analisi tecnica del prezzo di <span class="hlsh">Solana</span> indica un balzo del 20%.</a> <span class="meta"><span class="src src-part" data-pub="INVEZZIT">Invezz<i class="fas fa-cog"></i></span><span class="time" data-time="1688809223">10:40 8-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187591546">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187591546?-:" target="_blank" rel="nofollow">SOL Price Analysis: <span class="hlsh">Solana</span>&#8217;s Bullish Momentum Eyes $22 Resistance</a> <span class="meta"><span class="src src-part" data-pub="BITCOINWORLD">BitcoinWorld<i class="fas fa-cog"></i></span><span class="time" data-time="1688808992">10:36 8-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187591310">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187591310?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> price technical analysis points to a 20% jump</a> <span class="meta"><span class="src src-part" data-pub="INVEZZ">Invezz<i class="fas fa-cog"></i></span><span class="time" data-time="1688808782">10:33 8-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187586687">
+   <span class="f f_BG" c="BG"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187586687?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Shoots Up 12% Daily, Bitcoin (BTC) Maintains $30K: Weekend Watch</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOPOTATOCOM">CryptoPotato.com<i class="fas fa-cog"></i></span><span class="time" data-time="1688803869">09:11 8-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187531039">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187531039?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span>&#8217;s AI-powered tools could help &#8216;normies&#8217; pick NFTs</a> <span class="meta"><span class="src src-part" data-pub="THEBLOCKCRYPTO">The Block<i class="fas fa-cog"></i></span><span class="time" data-time="1688752251">18:50 7-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1187509554">
+   <span class="f f_DE" c="DE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187509554?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Prediction: Can <span class="hlsh">Solana</span> reach 50$ by the End of 2023?</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOTICKER">CryptoTicker<i class="fas fa-cog"></i></span><span class="time" data-time="1688742700">16:11 7-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187505087">
+   <span class="f f_CH" c="CH"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187505087?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Surges 35% Over Three Weeks: Analysts Puzzled</a> <span class="meta"><span class="src src-part" data-pub="DAILYCOIN">DailyCoin<i class="fas fa-cog"></i></span><span class="time" data-time="1688740939">15:42 7-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187494386">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187494386?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> (SOL) Price Fails to Break Out Despite 53% Increase &#8211; Trouble Looming Ahead?</a> <span class="meta"><span class="src src-part" data-pub="BEINCRYPTO">BeInCrypto<i class="fas fa-cog"></i></span><span class="time" data-time="1688736854">14:34 7-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187479307">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187479307?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> price predictions for 2023, 2024, and 2025</a> <span class="meta"><span class="src src-part" data-pub="FINANCEINBOLD">Finance in Bold<i class="fas fa-cog"></i></span><span class="time" data-time="1688730468">12:47 7-Jul-23</span></span></div>
+</div>
+<div class="hl " data-id="1187458903">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187458903?-:" target="_blank" rel="nofollow"><span class="hlsh">Solana</span> Price Prediction for Today, July 7: SOL/USD Soars Above $20 Level</a> <span class="meta"><span class="src src-part" data-pub="INSIDEBITCOINS">Inside Bitcoins<i class="fas fa-cog"></i></span><span class="time" data-time="1688721738">10:22 7-Jul-23</span></span></div>
+</div><div class="hl_break"><!-- --></div>
+<div class="hl " data-id="1187452694">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1187452694?-:" target="_blank" rel="nofollow">Breakout Potential: Analyst Expects <span class="hlsh">Solana</span> (SOL) to Surpass Ethereum (ETH) Resistance Barrier</a> <span class="meta"><span class="src src-part" data-pub="ETHNEWSCOM">ETHNews.com<i class="fas fa-cog"></i></span><span class="time" data-time="1688718626">09:30 7-Jul-23</span></span></div>
+</div>
+    <div class="hl_tail ">
+    <form class="njs" action="/h/ajax/fredir" method="GET">
+      <input type="hidden" name="o" value="more"/>
+            <input type="hidden" name="dmore" value="o1`i_s=1&#38;p=2_in-u_l_archhea-s_e_lang=a&#38;-:_ana&#38;_h=So-?_searc_/h/`"/>
+      <input type="submit" name="more" value="more"/>
+    </form>
+    <div class="hl_tail_nav js">
+        <a class="rs-button-more js-button-more btn--primary btn--primary--no-spacing" href="#"><span class="btn--primary__icon"><i class="fas fa-spinner fa-spin"></i><i class="fas fa-list"></i></span><span class="btn--primary__label">view more headlines</span></a>
+      <div class="date_tag js">
+   <span class="js-date-picker btn--secondary btn--secondary--no-spacing" href="javascript://" data-href="/h/?type=ln&#38;search=Solana&#38;lang=a&#38;searchheadlines=1&#38;d=" data-date="{&quot;sel&quot;:false,&quot;latest&quot;:1690034806,&quot;now&quot;:1690038000}" data-clear="/h/?type=ln&#38;search=Solana&#38;lang=a&#38;searchheadlines=1">
+      <span class="btn--secondary__icon"><i class="far fa-calendar-alt"></i></span>
+      <span class="btn--secondary__label">
+      
+<span class="dtctxt"><span class="d">22 Jul</span><span class="t"> 15:06</span></span></span>
+   </span>
+</div>
+    </div>
+  </div>
+  <script>
+   $(document).ready(function () {
+      nn.DatepickerInit();
+   });
+</script>
+</div>
+     <script>nn.newsboxController.initNewsboxAll();</script>
+</div><a class="email-promo__anchor" name="general-news"></a>
+<div class="email-promo email-promo-gn js-email-promo js-email-promo-gn-in-page" data-id="gn" data-name="general_news" data-mlid="16" data-frequency="14">
+   <p class="email-promo__heading">Don't miss out! Get the day's top headlines delivered to your inbox</p>
+   <p class="email-promo__description">Stay informed. Subscribe to our email alert of the day's top stories from the UK and around the world.</p>
+   <form name="email-promo-gn" action="javascript://" class="js-email-promo-form">
+      <input class="email-promo__input email-promo__input--email js-email-promo-email" type="email" value="farzan.akhtar1@gmail.com" disabled>
+      <a href="javascript://" class="btn--primary btn--primary--no-spacing email-promo__btn js-email-promo-submit">
+         <span class="btn--primary__icon"><i class="fas fa-envelope"></i></span>
+         <span class="btn--primary__label">Subscribe</span>
+      </a>
+   </form>
+   <p class="email-promo__terms">By clicking 'Subscribe' you agree to us subscribing you to our newsletter in accordance with our <a href="/privacy/privacy_policy_20200430/" target="_blank">Privacy Policy</a> and <a href="/legal-notice/" target="_blank">Legal Notice</a>.<br><br>Emails, which may be sent daily or less frequently, may include marketing elements. We will not share your email address with any third parties. You can unsubscribe whenever you want.</p>
+</div>
+   </main>
+
+   <aside class="rs-grid__nav js-navbar-parent">
+      <div class="js-navbar navbar">
+         <nav id="mmenu">
+   <ul id="mlist">
+      <li class="dyn_head mmenu__heading mmenu__heading--primary mnn">
+   <a href="/h/my?type=saved">My NewsNow</a>
+   <ul class="cs_my">
+      <li class="dyn_head t"><a>My NewsNow</a></li>
+      <li class="s"></li>
+      <li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=defi&#38;lang=en&#38;searchheadlines=1">
+      Defi
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/DeFi">
+      DeFi (Decentralized Finance)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=blockchain&#38;lang=en&#38;searchheadlines=1">
+      Blockchain
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Blockchain">
+      Blockchain
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies">
+      Cryptocurrencies
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Polygon+%28MATIC%29">
+      Polygon (MATIC)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=bitcoin&#38;lang=en&#38;searchheadlines=1">
+      Bitcoin
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Binance">
+      Binance
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/BNB+Chain">
+      BNB Chain (Binance Smart Chain)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Business+&#38;+Finance/Cryptocurrencies/Binance+Coin+%28BNB%29">
+      Binance Coin (BNB)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/UK/Civil+Liberties/Digital+Identity+%28UK%29">
+      Digital Identity (UK)
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/Technology/Cyber+Security">
+      Cyber Security
+   </a>
+</li><li class="c-horizontal-section-menu__item ">
+   <a href="/h/?search=cybersecurity&#38;lang=en&#38;searchheadlines=1">
+      Cybersecurity
+   </a>
+</li>
+      <li class="s r"></li>
+      <li><a href="/h/my?type=saved">All my topics</a></li>
+   </ul>
+</li><li class="l  recently-read"><a href="/h/read"><i class="fas fa-history"></i>History</a></li>
+<li class="s dyn_gap"></li>
+<li class="mmenu__header"></li>
+<li class="dyn_head mmenu__home mmenu__heading mmenu__heading--primary dyn_s_n ">
+   <a href="/h/">Home</a>
+</li><li class="s" id="n13"><a href="/h/Hot+Topics">Hot Topics <span class="new"></span></a><ul id="vmenu-panel13"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n1237"><a href="/h/Climate+Change">Climate Crisis <span class="new"></span></a><ul id="vmenu-panel1237"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n2192"><a href="/h/UK">UK <span class="new"></span></a><ul id="vmenu-panel2192"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n11"><a href="/h/World+News">World <span class="new"></span></a><ul id="vmenu-panel11"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n2386"><a href="/h/Business+&+Finance">Business</a><ul id="vmenu-panel2386"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n6"><a href="/h/Entertainment+&+Arts">Entertainment <span class="new"></span></a><ul id="vmenu-panel6"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n5"><a href="/h/Sport">Sport <span class="new"></span></a><ul id="vmenu-panel5"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="l" id="n23869"><a href="/h/Sport/Football">Football</a><ul id="vmenu-panel23869"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n15630"><a href="/h/Technology">Technology</a><ul id="vmenu-panel15630"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n2185"><a href="/h/Science">Science</a><ul id="vmenu-panel2185"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n3771"><a href="/h/Lifestyle">Lifestyle</a><ul id="vmenu-panel3771"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="s" id="n8"><a href="/h/Industry+Sectors">Industry Sectors <span class="new"></span></a><ul id="vmenu-panel8"><li class="mmenu--loading"><span>Loading...</span></li></ul></li><li class="mmenu__footer"></li><li class="s dyn_gap"></li>
+
+<li class="button"><a class="nv profile btn--tertiary" data-target="profile" href="/h/profile/"><span class="btn--tertiary__icon"><i class="fas fa-cog"></i></span><span class="btn--tertiary__label">Settings</span></a></li>
+<li class="button button-take-the-tour"><a class="nv btn--tertiary" href="javascript://" onclick="nn.tourManager.start(17,400);"><span class="btn--tertiary__icon"><i class="fas fa-info-circle"></i></span><span class="btn--tertiary__label">Take a tour</span></a></li>
+<li class="button"><a class="nv feedback btn--tertiary js-feedback" data-target="feedback" href="javascript://"><span class="btn--tertiary__icon"><i class="fas fa-comment"></i></span><span class="btn--tertiary__label">Feedback</span></a></li>
+<li class="s dyn_gap dyn_gap--button"></li>
+      <li class="mmenu__classified mmenu__heading mmenu__heading--primary"><a href="/classifieds/">NewsNow Classifieds</a></li>
+<li class="mmenu__classified">
+   <a href="/classifieds/cars-vans-for-sale/">Cars</a>
+</li><li class="mmenu__classified">
+   <a href="/classifieds/houses-flats-for-sale/">Properties for Sale</a>
+</li><li class="mmenu__classified">
+   <a href="/classifieds/houses-flats-for-rent/">Properties for Rent</a>
+</li><li class="mmenu__classified">
+   <a href="/classifieds/jobs/">Jobs</a>
+</li>
+   </ul>
+</nav>
+         <script>
+   $(document).ready(function() {
+      nn.SetupNavbarMediaQueryListener();
+   });
+</script>
+      </div>
+      <div class="rs-grid__nav__sticky-wrap">
+         <div class="js-ad-frame js-ad-frame-desktop rs-ad-frame rs-ad-frame__desktop rs-ad-frame__desktop--skyscraper"> 
+   <div class="rs-ad-frame__label">
+      Advertisement
+   </div>
+   <div id="ad_2" class="rs-ad-slot">
+   </div>
+</div>
+<div class="mm-postscript">
+   
+</div>
+      </div>
+   </aside>
+
+   <aside class="rs-grid__sidebar js-sidebar">
+      <div class="rs-grid__sidebar__sticky-wrap js-sidebar-sticky-wrap">
+         <div class="js-ad-frame js-ad-frame-desktop rs-ad-frame rs-ad-frame__desktop rs-ad-frame__desktop--sidebartop"> 
+   <div class="rs-ad-frame__label">
+      Advertisement
+   </div>
+   <div id="ad_3" class="rs-ad-slot">
+   </div>
+</div><div class="rs-newsbox js-newsbox js-newsbox-raw js-newsbox--no-nw rs-newsteaser js-newsteaser rs-newsbox__natnn js-natnn-box js-newsbox--no-flags rs-newsbox--no-flags" data-feed="natnn" >
+   <div class="rs-topic-heading js-topic-heading rs-topic-heading--teaser  s_n">
+   <div class="rs-topic-heading__row-1">
+  <h2 class="heading-2">In the News Now</h2>
+   <span class="rs-topic-heading__controls">
+      
+   </span>
+   </div>
+   
+   
+</div>
+   
+   <div class="newsfeed " data-config="{&quot;lengths&quot;:[6],&quot;init&quot;:0}" >
+  
+<div class="hl " data-id="">
+   <span class="f f_" c=""></span>
+   <div class="hl__inner"><a class="hll" href="/h/Sport/Football/International/FIFA+Women%27s+World+Cup?type=ln"  rel="nofollow">England have defeated Haiti 1-0 in their FIFA Women's World Cup opener</a> <span class="meta"></span></div>
+</div>
+<div class="hl " data-id="">
+   <span class="f f_" c=""></span>
+   <div class="hl__inner"><a class="hll" href="/h/UK/Travel+&#38;+Transport/Rail/Strikes"  rel="nofollow">Millions face disruption today as rail strikes continue into the first weekend of the summer holidays</a> <span class="meta"></span></div>
+</div>
+<div class="hl " data-id="">
+   <span class="f f_" c=""></span>
+   <div class="hl__inner"><a class="hll" href="/h/World+News/Europe/Eastern+Europe/Ukraine/Odesa"  rel="nofollow">Russia has attacked the Odesa region for a fourth day, targeting port and grain facilities</a> <span class="meta"></span></div>
+</div>
+<div class="hl " data-id="">
+   <span class="f f_" c=""></span>
+   <div class="hl__inner"><a class="hll" href="/h/World+News/Middle+East/Israel~Palestine"  rel="nofollow">Israeli forces have shot and killed a teenager in the West Bank, according to Palestinian officials</a> <span class="meta"></span></div>
+</div>
+<div class="hl " data-id="">
+   <span class="f f_" c=""></span>
+   <div class="hl__inner"><a class="hll" href="/h/UK/Immigration/Asylum+Seekers"  rel="nofollow">The UK government has said that a barge set to house asylum seekers is not &lsquo;a floating prison&rsquo;</a> <span class="meta"></span></div>
+</div>
+<div class="hl " data-id="">
+   <span class="f f_" c=""></span>
+   <div class="hl__inner"><a class="hll" href="/h/World+News/US/Joe+Biden?heading=US%20Navy&#38;search=Navy&#38;datefrom=1689894000&#38;sg=4bfaeee9&#38;sgt=csv1"  rel="nofollow">Joe Biden has nominated the first female admiral to lead the US Navy</a> <span class="meta"></span></div>
+</div>
+  
+  
+</div>
+     <script>nn.newsboxController.initNewsboxAll();</script>
+</div><div class="js-ad-frame js-ad-frame-desktop rs-ad-frame rs-ad-frame__desktop rs-ad-frame__desktop--sidebarbottom"> 
+   <div class="rs-ad-frame__label">
+      Advertisement
+   </div>
+   <div id="ad_4" class="rs-ad-slot">
+   </div>
+</div><div class="sidebarfeed">
+   <div class="rs-newsbox js-newsbox js-newsbox-raw  rs-newsteaser js-newsteaser " data-feed="fav_latest" >
+   <div class="rs-topic-heading js-topic-heading rs-topic-heading--teaser  s_my">
+   <div class="rs-topic-heading__row-1">
+  <h2 class="heading-2"><a class="rs-topic-heading__link js-topic-heading-link" href="/h/my?type=saved">My NewsNow <span class="rs-topic-heading__link__icon"><i class="fas fa-angle-right"></i></span></a></h2>
+   <span class="rs-topic-heading__controls">
+      
+   </span>
+   </div>
+   
+   
+</div>
+   
+   <div class="newsfeed " data-config="{&quot;lengths&quot;:[4],&quot;init&quot;:0,&quot;click_context&quot;:&quot;latest_news_small&quot;}" >
+  
+<div class="hl " data-id="1189481767">
+   <span class="f f_UK" c="UK"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189481767?-:" target="_blank" rel="nofollow">Man Who Claims He&#8217;s Bitcoin Inventor Satoshi Nakamoto Wins Appeal in UK Copyright Lawsuit</a> <span class="meta"><span class="src src-part" data-pub="INSIDEBITCOINS">Inside Bitcoins<i class="fas fa-cog"></i></span><span class="time" data-time="1690037630">15:53</span></span><span class="favtags"><a class="fav" href="/h/Business+&#38;+Finance/Cryptocurrencies">Cryptocurrencies</a> <a class="fav" href="/h/?search=bitcoin&#38;lang=en&#38;searchheadlines=1">Bitcoin</a> </span></div>
+</div>
+<div class="hl " data-id="1189481246">
+   <span class="f f_IN" c="IN"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189481246?-34138:27390" target="_blank" rel="nofollow">Bundle to Discontinue Crypto Exchange Operations in Nigeria</a> <span class="meta"><span class="src src-part" data-pub="COINPEDIA">Coinpedia<i class="fas fa-cog"></i></span><span class="time" data-time="1690037142">15:45</span></span><span class="favtags"><a class="fav" href="/h/Business+&#38;+Finance/Cryptocurrencies">Cryptocurrencies</a> </span></div>
+</div>
+<div class="hl " data-id="1189481189">
+   <span class="f f_BG" c="BG"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189481189?-34138:27390" target="_blank" rel="nofollow">ETH Unable to Breach $2K But is a Massive Move Coming? (Ethereum Price Analysis)</a> <span class="meta"><span class="src src-part" data-pub="CRYPTOPOTATOCOM">CryptoPotato.com<i class="fas fa-cog"></i></span><span class="time" data-time="1690037087">15:44</span></span><span class="favtags"><a class="fav" href="/h/Business+&#38;+Finance/Cryptocurrencies">Cryptocurrencies</a> </span></div>
+</div>
+<div class="hl " data-id="1189481100">
+   <span class="f f_AE" c="AE"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189481100?-34138:27390" target="_blank" rel="nofollow">Litecoin (LTC) Eyes New High Amid Halving-Fueled Buy-Up</a> <span class="meta"><span class="src src-part" data-pub="UTODAY">U.Today<i class="fas fa-cog"></i></span><span class="time" data-time="1690036982">15:43</span></span><span class="favtags"><a class="fav" href="/h/Business+&#38;+Finance/Cryptocurrencies">Cryptocurrencies</a> </span></div>
+</div>
+<div class="hl hl_inv" data-id="1189480512">
+   <span class="f f_US" c="US"></span>
+   <div class="hl__inner"><a class="hll" href="https://c.newsnow.co.uk/A/1189480512?-34138:27390" target="_blank" rel="nofollow">&#8216;Razzlekhan&#8217; court document riddled with accounting blunders</a> <span class="meta"><span class="src src-part" data-pub="BLOCKWORKS">Blockworks<i class="fas fa-cog"></i></span><span class="time" data-time="1690036487">15:34</span></span><span class="favtags"><a class="fav" href="/h/Business+&#38;+Finance/Cryptocurrencies">Cryptocurrencies</a> </span></div>
+</div>
+  
+  
+</div>
+     <script>nn.newsboxController.initNewsboxAll();</script>
+</div>
+</div>
+      </div>
+   </aside>
+
+   <div class="rs-grid__auxiliary">
+      <div class="rs-grid">
+         <div class="rs-grid__main">
+            
+         </div>
+      </div>
+   </div>
+
+   <div class="rs-grid__footer">
+      <footer class="rs-grid rs-grid--footer">
+   <div class="rs-grid__main footer__wrapper">
+            <div class="footer__menu-panel">
+      <div class="footer__menu-header">NewsNow</div>
+      <ul>
+         <li><a href="/">Home</a></li>
+         <li><a href="/about/" data-nicetip="{&quot;dir&quot;:&quot;nc&quot;}" title="About NewsNow: Internet news&#10;monitoring and real-time news">About us</a></li>
+         <li><a href="/contact/">Contact us</a></li>
+         <li><a href="/tv/">NewsNow TV</a></li>
+         
+      </ul>
+   </div>
+   <div class="footer__menu-panel">
+      <div class="footer__menu-header">Our Sites</div>
+      <ul>
+         <li><a href="//www.newsnow.co.uk/h/?utm_source=newsnow&utm_campaign=EditionCrosslink-UK&utm_medium=link&utm_content=Footer">NewsNow UK</a></li>
+         <li><a href="//www.newsnow.com/us/?utm_source=newsnow&utm_campaign=EditionCrosslink-US&utm_medium=link&utm_content=Footer">NewsNow US</a></li>
+         <li><a href="//www.newsnow.com/ng/?utm_source=newsnow&utm_campaign=EditionCrosslink-NG&utm_medium=link&utm_content=Footer">NewsNow Nigeria</a></li>
+         <li><a href="//www.newsnow.com/ro/?utm_source=newsnow&utm_campaign=EditionCrosslink-RO&utm_medium=link&utm_content=Footer">NewsNow Rom&#226;nia</a></li>
+         <li><a href="//www.newsnow.it/h/?utm_source=newsnow&utm_campaign=EditionCrosslink-IT&utm_medium=link&utm_content=Footer">NewsNow Italia</a></li>
+         <li><a href="/classifieds/">Classifieds</a></li>
+      </ul>
+   </div>
+   <div class="footer__menu-panel footer__menu-panel--work-with-us">
+      <div class="footer__menu-header">Work with Us</div>
+      <ul>
+         <li><a href="/publishers/">Publisher Network</a></li>
+         <li><a href="/advertise/">Advertise</a></li>
+         <li><a href="/careers/">Careers</a></li>
+         <li><a href="https://dockside.io/">Dockside Online IDE</a></li>
+      </ul>
+   </div>
+   <div class="footer__menu-panel">
+      <div class="footer__menu-header">Legal Info</div>
+      <ul>
+         <li><a href="/privacy/privacy_policy_20200430/">Privacy Policy</a></li>
+         <li><a href="/privacy/cookies/">Cookie Policy</a></li>
+         <li><a href="/legal-notice/">Legal notice</a></li>
+         <li><a href="javascript:" id="js-manage-consent">Privacy Settings</a></li>
+      </ul>
+   </div>
+         <div class="footer__copyright">
+            &#169; Copyright 1997 - 2023 NewsNow Publishing Limited. All rights reserved.
+         <div>
+   </div>
+</footer>
+   </div>
+
+   <div class="rs-clickcapture rs-clickcapture--off js-clickcapture js-make-translucent"></div>
+
+</div>
+
+
+      <img src="/ico/1.gif?13bb6b5d6d0dc829611bba33d84ee74d" style="display: none">
+   </div>
+   
+<div class="rs-popup js-popup">
+   <div class="rs-popup__loader js-popup-loader">
+      <span class="rs-loading"><i class="fas fa-spinner fa-spin"></i></span>
+   </div>
+   <div class="rs-popup__shade js-popup-shade"></div>
+   <div class="rs-popup__content-wrap js-popup-content-wrap"></div>
+</div>
+   <script>
+   nn.data.gaPv = function() {
+      if (window === window.top) {
+         nn.gtm.triggerPageviewEvent(   {
+      'd2' : typeof(req_type)=='undefined' ? 'u' : ( (req_type&1 ? 'b2' : 'f2') + (req_type&2 ? 'm' : '') ),
+      'd3' : (typeof(nn.UV)=='undefined' || typeof(nn.UV.au_d)=='undefined') ? 'u' : Number(nn.UV.au_d).toString(),
+      'd5' : 'GB',
+      'd8' : (nn.Visibility.isPageVisible() ? 'Visible' : 'Not Visible') + ' ' + (nn.js_breakpoint === 1 ? '(Mobile)' : '(Desktop)'),
+      'd9' : typeof(nn.js_breakpoint)=='undefined' ? 'u' : nn.js_breakpoint.toString(),
+      'd13': nn.splitTest.getStringFromConfig('pbcmp'),
+      'd16': 'M0 H0 S1',
+      'd17': 'sf',
+      'd19': nn.Settings.getLayoutType(),
+      'd20': nn.splitTest.getStringFromConfig('newformat')
+   }, nn.gtm.getNormalisedURL(nn.data && nn.data.addSlash2Url));
+      }
+   };
+   nn.data.gaPv();
+</script>
+   <div class="banner-ad pseudo"></div>
+<script type="text/javascript">
+   nnad.blockerDetection.detect();
+</script>
+   <div id="dyn" class="off">
+   <div class="dyn_dropdowncontent"><div class="settingsbox off">
+  <div class="dd_inner">
+    
+    <div class="login_body">
+   
+   <form name="nnloginform" method="post" action="https://www.newsnow.co.uk/h/signin/" accept-charset="UTF-8">
+      <div class="nnloggedin">
+  <div class="profile-title">Your account</div>
+  <ul>
+    <li><a class="btn--secondary" href="/h/profile/in/#info"><span class="btn--secondary__icon"><i class="fas fa-user-edit"></i></span><span class="btn--secondary__label">Account Settings</span></a></li>
+
+    <li><a class="btn--secondary logout" href="javascript://" onclick="nn.loginboxctrl.doSubmit(this);return false;"><span class="btn--secondary__icon"><i class="fas fa-sign-out-alt"></i></span><span class="btn--secondary__label">Sign out</span></a></li>
+  </ul>
+</div>
+      <input type="hidden" name="d" value="logout" />
+      <input type="hidden" name="cont" value="/" />
+   </form>
+   
+</div>
+<script>nn.loginboxctrl.init();</script><hr/>
+    <div class="pub_tools">
+   <div class="settings-title">Publication filters</div>
+   <ul>
+      <li><a class="btn--secondary btn-outline hlt_hid_tog" href="javascript://"><span class="btn--secondary__label">Click to show</span></a></li>
+      <li><a class="btn--secondary btn--secondary--no-spacing btn-outline hlt_mng" href="/h/publications/" ><span class="btn--secondary__label">Manage</span></a></li>
+      <li><a class="btn--secondary btn--secondary--no-spacing btn-outline hlt_reset" href="javascript://"><span class="btn--secondary__label">Reset all</span></a></li>
+      
+   </ul>
+</div>
+    <form class="hl_tools flcl" method="post" action="https://www.newsnow.co.uk/h/?search=Solana&#38;lang=a&#38;searchheadlines=1" accept-charset="UTF-8">
+   <p class="settings-title">Headline Density</p>
+   <ul>
+      <li><label for="s_fontsize">
+         <select name="fontsize" id="s_fontsize"><option value="12" selected="selected">Compact</option><option value="14" >Cosy</option><option value="16" >Comfortable</option></select>
+      </label></li>
+   </ul>
+</form>
+    <div class="rs-settings__push-notifications js-settings-push-notifications">
+   <hr>
+   <p class="settings-title">Notifications</p>
+   <li>
+      <a class="btn--secondary btn--secondary--no-spacing js-settings-push-notifications-unsubscribe" href="javascript://">
+         <span class="btn--secondary__label">Unsubscribe from Breaking News</span>
+      </a>
+   </li>
+</div>
+  </div>
+
+</div><script>
+if (!nn.Browser.is_opera_mini()) {
+   nn.settingsBox = new nn.SettingsBox({
+      trigger: '.js-profile, #mmenu .profile',
+      dropdown: '#dyn .dyn_dropdowncontent .settingsbox',
+      raiseonclickcap: '.js-header-btns',
+      translucentclickcapture: true
+   });
+   nn.addJob(10, $.proxy(nn.settingsBox.init, nn.settingsBox));
+}
+</script><div class="feedback_container off"></div></div>
+   <div class="dyn_suggest suggest_menu_wrapper scrollwrapper">
+   <div class="suggest_menu">
+      <div class="suggest_menu_top">
+         <div class="suggest_wcomplete">
+            <ul class="words off selectable"> 
+              <li></li>
+            </ul>
+         </div>
+         <div class="suggest_ctl">
+            <form name="suggestboxform" method="get" action="/" accept-charset="UTF-8"> 
+               <input type="hidden" name="search" value="" />
+               <label for="s_lang" accesskey="l"></label> <select id="s_lang" name="lang"><option value="a" selected="selected">All languages</option>
+<option value="en" >English</option>
+<option disabled="disabled" value=""><!-- --></option><option value="nl" >Dutch</option>
+<option value="fr" >French</option>
+<option value="de" >German</option>
+<option value="it" >Italian</option>
+<option value="no" >Norwegian</option>
+<option value="pt" >Portuguese</option>
+<option value="ro" >Romanian</option>
+<option value="es" >Spanish</option>
+<option value="sv" >Swedish</option>
+</select>
+            </form>
+            
+         </div>
+      </div>
+      <div class="noresult off">
+        <div class="error">Sorry, no headlines or news topics were found. Please try different keywords.</div>
+      </div>
+      <div class="suggest_search off">
+         
+         <ul class="results topics selectable"> 
+           <li></li>
+         </ul>
+      </div>
+   </div>
+   <div class="scrollwrapper_padding"></div>
+</div>
+</div>
+<script>
+nn.refresh.initRefresh();
+</script><script>
+   
+</script>
+<script>
+   $(document).ready(function () {
+      if (!nn.Browser.is_opera_mini()) {
+         nn.tourManager = new nn.TourManagerClass({ tourUrl: '/h/Sport' });
+
+         setTimeout(function() {
+            nn.tourManager.init()
+         }, 150);
+      }
+   });
+</script>
+<script>
+   
+   nn.runJobs();
+</script>
+
+</body>
+</html>

@@ -11,7 +11,8 @@ console.log("Hello world");
 async function pullNewsData(coins, tickers){
 	newsDataFinal = {}
 	for (y in coins){
-		await fetch(process.env.TEST_SITE + coins[y] + "?type=ln").then(function (response) {
+		await fetch(process.env.TEST_SITE + coins[y] + "&lang=en&searchheadlines=1").then(function (response) {
+			console.log(process.env.TEST_SITE + coins[y] + "&lang=en&searchheadlines=1")
 			return response.text();
 		}).then(function (html) {
 			// This is the HTML from our response as a text string
@@ -40,9 +41,13 @@ async function pullNewsData(coins, tickers){
 				publisher = publisher.replace(/">.*/,"")
 
 				url = item.replace(/" target.*/,"")
+				url = url.replace(/-:/,"-")
 				
 				headline = item.replace(/.*"nofollow">/,"")
+				headline = headline.replace(/<span class="hlsh">/," ")
+				headline = headline.replace(/<\/span>/," ")
 				headline = headline.replace(/<span.*/,"")
+				headline = headline.trim()
 
 				newsData = [publisher, date, url, headline] 
 				//console.log(publisher, date, headline, url)
@@ -61,8 +66,8 @@ async function pullNewsData(coins, tickers){
 					(newsData[3].toUpperCase()).includes("PUMP") ||
 					(newsData[3].toUpperCase()).includes("DUMP") ||
 					(newsData[3].toUpperCase()).includes("INSIDE BITCOIN") ||
-					(newsData[3].toUpperCase()).includes("TECHNICAL") ||
-					!((/\d{2}:\d{2}/g).test(newsData[2]))
+					(newsData[3].toUpperCase()).includes("TECHNICAL") //||
+					//!((/\d{2}:\d{2}/g).test(newsData[2]))
 					// !(newsData[3].includes(coins[y])) ||
 					// !(newsData[3].includes(tickers[y]))
 					){
@@ -222,7 +227,7 @@ async function main(){
 	ticker = ['BTC', 'SOL']
 	newsLinks = await pullNewsData(names, ticker)
 	console.log("-----")
-	console.log(newsLinks)
+	//console.log(newsLinks)
 	console.log("-----")
 	await sendEmail(newsLinks, userInfos)
 }
