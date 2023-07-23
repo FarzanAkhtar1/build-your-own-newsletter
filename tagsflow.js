@@ -49,7 +49,7 @@ async function getTagDataFromGoogleSheets(){
         preferences[y] = preferences[y].trim();
       };
       //console.log(preferences)
-      finalTagData.push([userTagData[entries][2],tagDateValueOf,preferences])
+      finalTagData.push([userTagData[entries][2].toLowerCase(),tagDateValueOf,preferences])
     };	
     //console.log (finalTagData);
     return finalTagData;
@@ -119,7 +119,7 @@ async function fetchUserIds(){ //returns a dict with user emails as the key, and
         //console.log("Counter - ", counter);
         for (i in dataWithPage['subscribers']){
           subDateValueOf = new Date(dataWithPage['subscribers'][i]['created_at']).valueOf()
-          finalSubData[dataWithPage['subscribers'][i]['email_address']] = dataWithPage['subscribers'][i]['id']
+          finalSubData[dataWithPage['subscribers'][i]['email_address']] = String(dataWithPage['subscribers'][i]['id']).toLowerCase()
         };
       };
       //console.log(finalSubData);
@@ -139,7 +139,8 @@ async function getListOfTagsFromConvertKit(userId){
 	}
 
 	// make the HTTP put request using fetch api to get the list of tags
-  const response = await fetch('https://api.convertkit.com/v3/subscribers/'+ userId + "/tags?api_key=" + process.env.CONVERTKIT_PUBLIC, getMethod);
+  console.log('https://api.convertkit.com/v3/subscribers/'+ String(userId) + "/tags?api_key=" + process.env.CONVERTKIT_PUBLIC)
+  const response = await fetch('https://api.convertkit.com/v3/subscribers/'+ String(userId) + "/tags?api_key=" + process.env.CONVERTKIT_PUBLIC, getMethod);
   if (!response.ok) {
     throw new Error(`HTTP error! Status: ${response.status}`);
   }
@@ -190,7 +191,10 @@ async function updateUserTags(userTagPreferences, userIds, allTags){
   for (x in userTagPreferences){
 
     var userId = userIds[userTagPreferences[x][0]]
-    if ((userTagPreferences[x][1] > Date.now()-172800000) && (userTagPreferences[x][0] in userIds)){//If the user's request is less than 2 days old (86400000 = 1 day) and they are a subscriber
+    // console.log(userIds)
+    // console.log(userTagPreferences[x])
+    // console.log()
+    if ((userTagPreferences[x][1] > Date.now()-172800000000) && (userTagPreferences[x][0] in userIds)){//If the user's request is less than 2 days old (86400000 = 1 day) and they are a subscriber
       //console.log(x,"In", userTagPreferences[x], userIds, userId )
       tagsFromConvertKit = await getListOfTagsFromConvertKit(userId); //Get their tags from convertkit
 
@@ -213,7 +217,7 @@ async function updateUserTags(userTagPreferences, userIds, allTags){
         //console.log(y, tagsFromConvertKit, userTagPreferences[x][2][y])
         if (userTagPreferences[x][2][y] in tagsFromConvertKit == false){ //If the tag is not in their current prefences
           tagsToAdd.push(allTags[userTagPreferences[x][2][y]])
-          //console.log("Tag user", userTagPreferences[x][0], allTags[userTagPreferences[x][2][y]])
+          console.log("Tag user", userTagPreferences[x][0], allTags[userTagPreferences[x][2][y]])
 
         };
       };
@@ -231,9 +235,15 @@ async function updateUserTags(userTagPreferences, userIds, allTags){
 async function main(){
   //getListOfTagsFromConvertKit(2180605535)
   finalTagData = await getTagDataFromGoogleSheets()
+  console.log(finalTagData)
+  console.log()
   //console.log(finalTagData)
   userIds = await fetchUserIds() 
+  console.log(userIds)
+  console.log()
   tags = await getListOfTags()
+  console.log(tags)
+  console.log()
   //console.log(userIDs);
   //console.log(finalTagData)
   //console.log(userIds)

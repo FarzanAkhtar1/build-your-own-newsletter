@@ -66,7 +66,8 @@ async function pullNewsData(coins, tickers){
 					(newsData[3].toUpperCase()).includes("PUMP") ||
 					(newsData[3].toUpperCase()).includes("DUMP") ||
 					(newsData[3].toUpperCase()).includes("INSIDE BITCOIN") ||
-					(newsData[3].toUpperCase()).includes("TECHNICAL") //||
+					(newsData[3].toUpperCase()).includes("TECHNICAL") ||
+					(newsData[3].toUpperCase()).includes(":") 
 					//!((/\d{2}:\d{2}/g).test(newsData[2]))
 					// !(newsData[3].includes(coins[y])) ||
 					// !(newsData[3].includes(tickers[y]))
@@ -148,6 +149,17 @@ async function getSubscribersJSONConvertKit() {
 async function sendEmail(newsOfEachCoin, subscriberDict){
 
 	//Interate through each of the news and format it into HTML, one line is one link, store in a dict
+	for (y in newsOfEachCoin){
+		htmlCode = ""
+		for (z in newsOfEachCoin[y]){
+			//console.log(newsOfEachCoin[y][z])
+			htmlCode = htmlCode + "<a href=\"" + newsOfEachCoin[y][z][2] + "\">" + newsOfEachCoin[y][z][3] + "</a><br>"
+			//console.log(y,z,htmlCode)
+		}
+		newsOfEachCoin[y] = htmlCode
+		//console.log("")
+		//console.log(newsOfEachCoin[y])
+	}
 
 	//date information
 	sgMail.setApiKey(process.env.SENDGRID_API_KEY)
@@ -166,11 +178,12 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
 		emailHTML = '<strong>New Block - '+ emailDate + '</strong>' +
-		'<p>Welcome to this edition of New Block</p>'
+		'<p>Welcome to this edition of New Block</p></br>'
 		for (y in userNews){ //for each of their preferences
-			console.log(userNews[y])
 			try{
-				console.log(newsOfEachCoin[userNews[y]])
+				console.log(userNews[y])
+				emailHTML = emailHTML + "<p><b>" + userNews[y] + "</b><br>" + newsOfEachCoin[userNews[y]] + "</p></br>"				
+				//console.log(newsOfEachCoin[userNews[y]])
 				///////////////////to emailHTML add the user's preferences
 
 				//console.log(newsOfEachCoin[userNews])
@@ -182,22 +195,21 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 	
 		emailHTML = emailHTML +
 					'<p>Thanks to X for supporting us</p>'
-		// const msg = {
-		// 	to: 'farzan.akhtar1@gmail.com', // Change to your recipient
-		// 	from: process.env.SENDGRID_SENDER, // Change to your verified sender
-		// 	subject: 'Test email from fudge',
-		// 	text: 'test email',
-		// 	html: '<strong>New Block - '+ emailDate + '</strong>' +
-		// 		'<p>Welcome to this edition of New Block</p>',	
-		//   }
-		//   sgMail
-		// 	.send(msg)
-		// 	.then(() => {
-		// 	  console.log('Email sent')
-		// 	})
-		// 	.catch((error) => {
-		// 	  console.error(error)
-		// 	})
+		const msg = {
+			to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+			from: process.env.SENDGRID_SENDER, // Change to your verified sender
+			subject: 'Test email from fudge',
+			text: 'test email',
+			html: emailHTML
+		  }
+		  sgMail
+			.send(msg)
+			.then(() => {
+			  console.log('Email sent')
+			})
+			.catch((error) => {
+			  console.error(error)
+			})
 	}
 	//Added sendgrid API key
 	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
@@ -223,8 +235,8 @@ async function main(){
 	console.log(userInfos)
 	console.log("-----")
 	
-	names = ['Bitcoin','Solana']
-	ticker = ['BTC', 'SOL']
+	names = ['Bitcoin','Solana', 'Algorand']
+	ticker = ['BTC', 'SOL', 'ALGO']
 	newsLinks = await pullNewsData(names, ticker)
 	console.log("-----")
 	//console.log(newsLinks)

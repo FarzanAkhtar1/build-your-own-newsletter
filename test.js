@@ -1,5 +1,9 @@
 const fs = require('fs')
 fs.readFile('testhtml.txt', (err, inputD) => {
+  names = ['Bitcoin','Solana']
+	ticker = ['BTC', 'SOL']
+  coins = names
+  for (y in coins){
    if (err) throw err;
       html = inputD.toString();
       //console.log(html)
@@ -76,6 +80,11 @@ fs.readFile('testhtml.txt', (err, inputD) => {
 
         }        
       }
-      console.log(urlAndHeadline)
-      newsOfEachCoin = urlAndHeadline
-})
+      // console.log(urlAndHeadline)
+      // newsOfEachCoin = urlAndHeadline
+
+      // for (y in newsOfEachCoin){
+      //   console.log(newsOfEachCoin[x])
+      }
+}
+)
