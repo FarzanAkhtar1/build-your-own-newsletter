@@ -203,7 +203,7 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		emailHTML = emailHTML +
 					'<p>Thanks to NewsNow for supporting us with access to the stories we feature.</p>'
 		const msg = {
-			to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+			to: userEmail, // Change to your recipient
 			from: process.env.SENDGRID_SENDER, // Change to your verified sender
 			subject: 'New Block - '+ emailDate,
 			text: 'New Block - '+ emailDate,
