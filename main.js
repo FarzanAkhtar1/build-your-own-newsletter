@@ -8,10 +8,11 @@ const sgMail = require('@sendgrid/mail')
 //console.log(process.env.CONVERTKIT_SECRET);
 console.log("Hello world");
 
-async function pullNewsData(coins, tickers){
+async function pullNewsData(coins, tickers, urls){
 	newsDataFinal = {}
 	for (y in coins){
-		await fetch(process.env.TEST_SITE + coins[y] + "&lang=en&searchheadlines=1").then(function (response) {
+		await fetch(urls[y]).then(function (response) {
+		//await fetch(process.env.TEST_SITE + coins[y] + "&lang=en&searchheadlines=1").then(function (response) {
 			console.log(process.env.TEST_SITE + coins[y] + "&lang=en&searchheadlines=1")
 			return response.text();
 		}).then(function (html) {
@@ -67,7 +68,11 @@ async function pullNewsData(coins, tickers){
 					(newsData[3].toUpperCase()).includes("DUMP") ||
 					(newsData[3].toUpperCase()).includes("INSIDE BITCOIN") ||
 					(newsData[3].toUpperCase()).includes("TECHNICAL") ||
-					(newsData[3].toUpperCase()).includes(":") 
+					(newsData[3].toUpperCase()).includes(":") ||
+					(newsData[3].toUpperCase()).includes("POP") ||
+					(newsData[3].toUpperCase()).includes("LOSE") ||
+					(newsData[3].toUpperCase()).includes("TOP") ||
+					(newsData[3].toUpperCase()).includes("BEST")
 					//!((/\d{2}:\d{2}/g).test(newsData[2]))
 					// !(newsData[3].includes(coins[y])) ||
 					// !(newsData[3].includes(tickers[y]))
@@ -177,8 +182,10 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-		emailHTML = '<strong>New Block - '+ emailDate + '</strong>' +
-		'<p>Welcome to this edition of New Block</p></br>'
+		emailHTML = "<small>Want to unsubscribe? Click " + 
+					"<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small><br>" +
+					'<strong><h1>New Block - '+ emailDate + '</h1></strong>' +
+					'<p>Welcome to this edition of New Block</p></br>'
 		for (y in userNews){ //for each of their preferences
 			try{
 				console.log(userNews[y])
@@ -194,12 +201,12 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		//console.log(totalNews)
 	
 		emailHTML = emailHTML +
-					'<p>Thanks to X for supporting us</p>'
+					'<p>Thanks to NewsNow for supporting us with access to the stories we feature.</p>'
 		const msg = {
 			to: 'farzan.akhtar1@gmail.com', // Change to your recipient
 			from: process.env.SENDGRID_SENDER, // Change to your verified sender
-			subject: 'Test email from fudge',
-			text: 'test email',
+			subject: 'New Block - '+ emailDate,
+			text: 'New Block - '+ emailDate,
 			html: emailHTML
 		  }
 		  sgMail
@@ -235,9 +242,18 @@ async function main(){
 	console.log(userInfos)
 	console.log("-----")
 	
-	names = ['Bitcoin','Solana', 'Algorand']
-	ticker = ['BTC', 'SOL', 'ALGO']
-	newsLinks = await pullNewsData(names, ticker)
+	names = ['Bitcoin','Solana', 'Algorand', 'Ripple', 'Cardano', 'Polygon', 'Stellar', "Ethereum"]
+	ticker = ['BTC', 'SOL', 'ALGO', 'XRP','ADA','MATIC', 'XLM', 'ETH']
+	urls = ["https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Bitcoin?type=ln",
+			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Solana+%28SOL%29?type=ln",
+			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Algorand+%28ALGO%29?type=ln",
+			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ripple?type=ln",
+			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Cardano+%28ADA%29?type=ln",
+			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Polygon+%28MATIC%29?type=ln",
+			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Stellar+%28XLM%29?type=ln",
+			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ethereum+%28ETH%29?type=ln"
+			]
+	newsLinks = await pullNewsData(names, ticker, urls)
 	console.log("-----")
 	//console.log(newsLinks)
 	console.log("-----")
