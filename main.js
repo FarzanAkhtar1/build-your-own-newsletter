@@ -182,9 +182,7 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-		emailHTML = "<small>Want to unsubscribe? Click " + 
-					"<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small><br>" +
-					'<strong><h1>New Block - '+ emailDate + '</h1></strong>' +
+		emailHTML = '<strong><h1>New Block - '+ emailDate + '</h1></strong>' +
 					'<p>Welcome to this edition of New Block</p></br>'
 		for (y in userNews){ //for each of their preferences
 			try{
@@ -201,7 +199,14 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		//console.log(totalNews)
 	
 		emailHTML = emailHTML +
-					'<p>Thanks to NewsNow for supporting us with access to the stories we feature.</p>'
+					'<p>Update your preferences ' +
+					'<a href=\"https://forms.gle/PugEcNjQtqpE4DCS9">here</a></p>' +
+					'<p>Want to get in touch? Reply directly to this email or find me on ' + 
+					'<a href=\"https://twitter.com/FarzanAkhtar1\">Twitter (Now X)</a></p>' +
+					'<p>Thanks to NewsNow for supporting us with the stories we feature.</p>' +
+					"<small>Want to unsubscribe? Click " + 
+					"<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small><br>"
+					
 		const msg = {
 			to: userEmail, // Change to your recipient
 			from: process.env.SENDGRID_SENDER, // Change to your verified sender
@@ -235,8 +240,6 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 };
 
 async function main(){
-
-
 	userInfos = await getSubscribersJSONConvertKit()
 	console.log("-----")
 	console.log(userInfos)
