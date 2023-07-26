@@ -208,7 +208,8 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 					"<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small><br>"
 					
 		const msg = {
-			to: userEmail, // Change to your recipient
+			to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+			//to: userEmail, // Change to your recipient
 			from: process.env.SENDGRID_SENDER, // Change to your verified sender
 			subject: 'New Block - '+ emailDate,
 			text: 'New Block - '+ emailDate,
