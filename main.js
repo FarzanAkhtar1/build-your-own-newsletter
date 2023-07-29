@@ -182,8 +182,7 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-		emailHTML = '<strong><h1>New Block - '+ emailDate + '</h1></strong>' +
-					'<p>Welcome to this edition of New Block</p></br>'
+        emailHTML = '<p>Welcome to this edition of New Block - Your daily digest of crypto realted news</p></br>'
 		for (y in userNews){ //for each of their preferences
 			try{
 				console.log(userNews[y])
