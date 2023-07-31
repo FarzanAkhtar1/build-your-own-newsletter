@@ -182,7 +182,7 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-        emailHTML = '<p>Welcome to this edition of New Block - Your daily digest of crypto realted news</p></br>'
+        emailHTML = '<p>Welcome to this edition of New Block - Your daily digest of crypto related news</p></br>'
 		for (y in userNews){ //for each of their preferences
 			try{
 				console.log(userNews[y])
@@ -197,14 +197,16 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		
 		//console.log(totalNews)
 	
-		emailHTML = emailHTML +
-					'<p>Update your preferences ' +
-					'<a href=\"https://forms.gle/PugEcNjQtqpE4DCS9">here</a></p>' +
-					'<p>Want to get in touch? Reply directly to this email or find me on ' + 
-					'<a href=\"https://twitter.com/FarzanAkhtar1\">Twitter (Now X)</a></p>' +
-					'<p>Thanks to NewsNow for supporting us with the stories we feature.</p>' +
-					"<small>Want to unsubscribe? Click " + 
-					"<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small><br>"
+        emailHTML = emailHTML +
+              '<p>Update your preferences ' +
+              '<a href=\"https://forms.gle/PugEcNjQtqpE4DCS9">here</a></p>' +
+              '<p>Want to get in touch? Reply directly to this email or find me on ' + 
+              '<a href=\"https://twitter.com/FarzanAkhtar1\">Twitter (Now X)</a></p>' +
+              '<p>Thanks to NewsNow for supporting us with the stories we feature.</p>' + //
+              "<small>Want to update your preferences? Click " + 
+              "<a href=\"https://forms.gle/s5Zz16keSqgQnj3y7\">here</a></small><br>" +
+              "<small>Want to unsubscribe? Click " + 
+              "<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small>"
 					
 		const msg = {
 			to: 'farzan.akhtar1@gmail.com', // Change to your recipient
