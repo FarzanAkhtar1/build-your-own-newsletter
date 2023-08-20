@@ -58,16 +58,16 @@ async function pullNewsData(coins, tickers, urls){
 					(newsData[3].toUpperCase()).includes("BULL") || 
 					(newsData[3].toUpperCase()).includes("BEAR") ||
 					(newsData[3].toUpperCase()).includes("RALL") || //RALLY or RALLIES				
-					(newsData[3].toUpperCase()).includes("TRAD") ||
+					(newsData[3].toUpperCase()).includes("TRAD") || //TRADFI or TRADITIONAL
 					(newsData[3].toUpperCase()).includes("SUPPORT") ||
-					(newsData[3].toUpperCase()).includes("$") ||
-                    (newsData[3].toUpperCase()).includes("%") ||
+					(newsData[3].toUpperCase()).includes("$") || //COIN $X
+                    (newsData[3].toUpperCase()).includes("%") || //% GAINS
 					(newsData[3].toUpperCase()).includes("SUPPORT") ||
 					(newsData[3].toUpperCase()).includes("RESISTANCE") ||
 					(newsData[3].toUpperCase()).includes("ARTIFICIAL") ||
 					(newsData[3].toUpperCase()).includes("PUMP") ||
 					(newsData[3].toUpperCase()).includes("DUMP") ||
-					(newsData[3].toUpperCase()).includes("INSIDE BITCOIN") ||
+					(newsData[3].toUpperCase()).includes("INSIDE BITCOIN") || //Name gives false positives
 					(newsData[3].toUpperCase()).includes("TECHNICAL") ||
 					(newsData[3].toUpperCase()).includes(":") ||
 					(newsData[3].toUpperCase()).includes("POP") ||
@@ -84,10 +84,10 @@ async function pullNewsData(coins, tickers, urls){
 					// !(newsData[3].includes(coins[y])) ||
 					// !(newsData[3].includes(tickers[y]))
 					){
-					//console.log("Dirty -", newsData[3], newsData[0], newsData[1])
+					console.log("Dirty -", newsData[3], newsData[0], newsData[1], newsData[3].includes(coins[y]), newsData[3].includes(tickers[y]))
 				}else{
 					urlAndHeadline.push(newsData)
-					//console.log("Clean -", newsData[3], newsData[0], newsData[1])
+					console.log("Clean -", newsData[3], newsData[0], newsData[1], newsData[3].includes(coins[y]), newsData[3].includes(tickers[y]))
 				}
 			}
 
@@ -110,56 +110,10 @@ async function pullNewsData(coins, tickers, urls){
 	return newsDataFinal	
 }
 
-async function getJSONConvertKit(url) {
-    try {
-      const absoluteURL = new URL(url, process.env.UNSUBSCRIBE_FORM);
-      const response = await fetch(absoluteURL.href);
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      console.error('Error:', error);
-    }
-};
-
-async function getSubscribersJSONConvertKit() {
-	const getMethod = { //Define the type of method
-		method: 'GET', 
-		}
-	
-		// make the HTTP put request using fetch api to get the list of users
-	const response = await fetch('https://api.convertkit.com/v3/subscribers?api_secret='+ process.env.CONVERTKIT_SECRET, getMethod);
-	if (!response.ok) {
-		throw new Error(`HTTP error! Status: ${response.status}`);
-	};
-
-	const data = await response.json();  
-	//console.log(data)
-	subscribersDict = {} //dict to store user information
-	for (counter = 1; counter <= data['total_pages']; counter++){ //subscriber data is presented in pages so we need to iterate through the max number of pages given by the API
-		const subUrlWithPage = "https://api.convertkit.com/v3/subscribers?api_secret="+process.env.CONVERTKIT_SECRET+"&page="+counter; //pull user data based on page
-		const dataWithPage = await getJSONConvertKit(subUrlWithPage);
-		for (i in dataWithPage['subscribers']){ //iterates through all the users
-			userID = dataWithPage['subscribers'][i]['id'] //takes the user's ID, this will be used as the key for subscriberDict
-			subscribersDict[userID] = ""; //creates the dict with an empty value
-			const userTagsURL = "https://api.convertkit.com/v3/subscribers/" + userID + "/tags?api_key=" + process.env.CONVERTKIT_PUBLIC; //pulls the specific user's tags, ID is the unique identifier
-			const userTagsData = await getJSONConvertKit(userTagsURL);		
-			tags = []
-			for (y in userTagsData['tags']){ //for the tags user has
-				tags.push(userTagsData['tags'][y]['name'].replace(/ (.*)/g,"")) //remove the ticker from the tag name
-				//console.log(userTagsData['tags'][y]['name'].replace(/ (.*)/g,""))
-			};
-			console.log(dataWithPage['subscribers'][i]['id'])
-			subscribersDict[dataWithPage['subscribers'][i]['id']] = [tags,dataWithPage['subscribers'][i]['first_name'], dataWithPage['subscribers'][i]['email_address']] //adds the tag data, name, and email to the value of the key above
-			//finalSubData.push([dataWithPage['subscribers'][i]['email_address'], subDateValueOf]);
-		};
-	};
-	return subscribersDict
-};
 
 async function sendEmail(newsOfEachCoin, subscriberDict){
+    console.log("-----------------------------------------")
+    console.log(subscriberDict)
 
 	//Interate through each of the news and format it into HTML, one line is one link, store in a dict
 	for (y in newsOfEachCoin){
@@ -190,20 +144,6 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-        emailHTML = '<p>Welcome to this edition of New Block - Your daily digest of crypto related news</p></br>'
-		for (y in userNews){ //for each of their preferences
-			try{
-				console.log(userNews[y])
-				emailHTML = emailHTML + "<p><b>" + userNews[y] + "</b><br>" + newsOfEachCoin[userNews[y]] + "</p></br>"				
-				//console.log(newsOfEachCoin[userNews[y]])
-				///////////////////to emailHTML add the user's preferences
-
-				//console.log(newsOfEachCoin[userNews])
-				//totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
-			}catch{};
-		};
-		
-		//console.log(totalNews)
 	
         emailHTML = emailHTML +
               '<p>Update your preferences ' +
@@ -249,10 +189,11 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 
 };
 
+
 async function main(){
-	userInfos = await getSubscribersJSONConvertKit()
+	//userInfos = await getSubscribersJSONConvertKit()
 	console.log("-----")
-	console.log(userInfos)
+	//console.log(userInfos)
 	console.log("-----")
 	
 	names = ['Bitcoin','Solana', 'Algorand', 'Ripple', 'Cardano', 'Polygon', 'Stellar', "Ethereum"]
@@ -270,7 +211,9 @@ async function main(){
 	console.log("-----")
 	//console.log(newsLinks)
 	console.log("-----")
-	console.log(userInfos)
+    userInfos = {
+                    "1":[['Algorand', 'Bitcoin','Cardano',  'Ethereum','Polygon',  'Ripple','Solana',   'Stellar'],'Farzan',	'farzan-akhtar@outlook.com']
+                    }
 	await sendEmail(newsLinks, userInfos)
 }
 //main()
