@@ -60,7 +60,7 @@ async function pullNewsData(coins, tickers, urls){
 					(newsData[3].toUpperCase()).includes("RALL") || //RALLY or RALLIES				
 					(newsData[3].toUpperCase()).includes("TRAD") || //TRADFI or TRADITIONAL
 					(newsData[3].toUpperCase()).includes("SUPPORT") ||
-					(newsData[3].toUpperCase()).includes("$") || //COIN $X
+					//(newsData[3].toUpperCase()).includes("$") || //COIN $X
                     (newsData[3].toUpperCase()).includes("%") || //% GAINS
 					(newsData[3].toUpperCase()).includes("SUPPORT") ||
 					(newsData[3].toUpperCase()).includes("RESISTANCE") ||
@@ -144,20 +144,33 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-	
-        emailHTML = emailHTML +
-              '<p>Update your preferences ' +
-              '<a href=\"https://forms.gle/PugEcNjQtqpE4DCS9">here</a></p>' +
+		emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><h1>New Block</h1><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
+        //emailHTML = emailHTML + '<p>Welcome to this edition of New Block - Your daily digest of crypto related news</p><br>'
+		for (y in userNews){ //for each of their preferences
+			try{
+				console.log(userNews[y])
+				emailHTML = emailHTML + "<p><b>" + userNews[y] + "</b><br>" + newsOfEachCoin[userNews[y]] + "</p><br>"				
+				//console.log(newsOfEachCoin[userNews[y]])
+				///////////////////to emailHTML add the user's preferences
+
+				//console.log(newsOfEachCoin[userNews])
+				//totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
+			}catch{};
+		};
+
+        emailHTML = emailHTML + '</div><div class=\"footer\">' + 
               '<p>Want to get in touch? Reply directly to this email or find me on ' + 
               '<a href=\"https://twitter.com/FarzanAkhtar1\">Twitter (Now X)</a></p>' +
               '<p>Thanks to NewsNow for supporting us with the stories we feature.</p>' + //
               "<small>Want to update your preferences? Click " + 
               "<a href=\"https://forms.gle/s5Zz16keSqgQnj3y7\">here</a></small><br>" +
               "<small>Want to unsubscribe? Click " + 
-              "<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small>"
+              "<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small>" +
+			  '</p></div></div></body></html>'
 					
 		const msg = {
-			to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+			//to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+			to: 'farzan-akhtar@outlook.com', // Change to your recipient
 			//to: userEmail, // Change to your recipient
 			from: process.env.SENDGRID_SENDER, // Change to your verified sender
 			subject: 'New Block - '+ emailDate,
