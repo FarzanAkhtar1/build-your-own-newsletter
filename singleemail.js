@@ -144,7 +144,7 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-		emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><h1>New Block</h1><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
+		emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"newblock.png\" alt=\"Girl in a jacket\"><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
         //emailHTML = emailHTML + '<p>Welcome to this edition of New Block - Your daily digest of crypto related news</p><br>'
 		for (y in userNews){ //for each of their preferences
 			try{
