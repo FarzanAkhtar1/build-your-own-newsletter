@@ -110,7 +110,27 @@ async function pullNewsData(coins, tickers, urls){
 	return newsDataFinal	
 }
 
-
+async function justMail(){
+	sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+	emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"https://raw.githubusercontent.com/FarzanAkhtar1/build-your-own-newsletter/main/newblock.png\" alt=\"New Block heading\" width=\"600\" height=auto"><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
+	const msg = {
+		to: 'farzan.akhtar1@gmail.com', // Change to your recipient
+		//to: 'farzan-akhtar@outlook.com', // Change to your recipient
+		//to: userEmail, // Change to your recipient
+		from: process.env.SENDGRID_SENDER, // Change to your verified sender
+		subject: 'New Block',
+		text: 'New Block',
+		html: emailHTML
+	  }
+	  sgMail
+		.send(msg)
+		.then(() => {
+		  console.log('Email sent')
+		})
+		.catch((error) => {
+		  console.error(error)
+		})	
+}
 async function sendEmail(newsOfEachCoin, subscriberDict){
     console.log("-----------------------------------------")
     console.log(subscriberDict)
@@ -144,7 +164,7 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-		emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"newblock.png\" alt=\"Girl in a jacket\"><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
+		emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"https://raw.githubusercontent.com/FarzanAkhtar1/build-your-own-newsletter/main/newblock.png\" alt=\"New Block heading\" width: 100%;max-width: 600 height=100%:max-height: 300><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
         //emailHTML = emailHTML + '<p>Welcome to this edition of New Block - Your daily digest of crypto related news</p><br>'
 		for (y in userNews){ //for each of their preferences
 			try{
@@ -204,34 +224,36 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 
 
 async function main(){
-	//userInfos = await getSubscribersJSONConvertKit()
-	console.log("-----")
-	//console.log(userInfos)
-	console.log("-----")
+	justMail()
+
+// 	//userInfos = await getSubscribersJSONConvertKit()
+// 	console.log("-----")
+// 	//console.log(userInfos)
+// 	console.log("-----")
 	
-	names = ['Bitcoin','Solana', 'Algorand', 'Ripple', 'Cardano', 'Polygon', 'Stellar', "Ethereum"]
-	ticker = ['BTC', 'SOL', 'ALGO', 'XRP','ADA','MATIC', 'XLM', 'ETH']
-	urls = ["https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Bitcoin?type=ln",
-			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Solana+%28SOL%29?type=ln",
-			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Algorand+%28ALGO%29?type=ln",
-			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ripple?type=ln",
-			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Cardano+%28ADA%29?type=ln",
-			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Polygon+%28MATIC%29?type=ln",
-			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Stellar+%28XLM%29?type=ln",
-			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ethereum+%28ETH%29?type=ln"
-			]
-	newsLinks = await pullNewsData(names, ticker, urls)
-	console.log("-----")
-	//console.log(newsLinks)
-	console.log("-----")
-    userInfos = {
-                    "1":[['Algorand', 'Bitcoin','Cardano',  'Ethereum','Polygon',  'Ripple','Solana',   'Stellar'],'Farzan',	'farzan-akhtar@outlook.com']
-                    }
-	await sendEmail(newsLinks, userInfos)
+// 	names = ['Bitcoin','Solana', 'Algorand', 'Ripple', 'Cardano', 'Polygon', 'Stellar', "Ethereum"]
+// 	ticker = ['BTC', 'SOL', 'ALGO', 'XRP','ADA','MATIC', 'XLM', 'ETH']
+// 	urls = ["https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Bitcoin?type=ln",
+// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Solana+%28SOL%29?type=ln",
+// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Algorand+%28ALGO%29?type=ln",
+// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ripple?type=ln",
+// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Cardano+%28ADA%29?type=ln",
+// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Polygon+%28MATIC%29?type=ln",
+// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Stellar+%28XLM%29?type=ln",
+// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ethereum+%28ETH%29?type=ln"
+// 			]
+// 	newsLinks = await pullNewsData(names, ticker, urls)
+// 	console.log("-----")
+// 	//console.log(newsLinks)
+// 	console.log("-----")
+//     userInfos = {
+//                     "1":[['Algorand', 'Bitcoin','Cardano',  'Ethereum','Polygon',  'Ripple','Solana',   'Stellar'],'Farzan',	'farzan-akhtar@outlook.com']
+//                     }
+// 	await sendEmail(newsLinks, userInfos)
 }
-//main()
-//getUnsubDataFromGoogleSheets()
-//unsubData = getUnsubDataFromGoogleSheets()
+// //main()
+// //getUnsubDataFromGoogleSheets()
+// //unsubData = getUnsubDataFromGoogleSheets()
 
 
 
