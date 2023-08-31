@@ -80,9 +80,6 @@ async function pullNewsData(coins, tickers, urls){
                     (newsData[3].toUpperCase()).includes("FLOKI") ||
                     (newsData[3].toUpperCase()).includes("INU") ||
                     (!(newsData[3].includes(coins[y]) || newsData[3].includes(tickers[y])))
-					//!((/\d{2}:\d{2}/g).test(newsData[2]))
-					// !(newsData[3].includes(coins[y])) ||
-					// !(newsData[3].includes(tickers[y]))
 					){
 					//console.log("Dirty -", newsData[3], newsData[0], newsData[1])
 				}else{
@@ -92,16 +89,7 @@ async function pullNewsData(coins, tickers, urls){
 			}
 
 			console.log(tickers[y], coins[y], urlAndHeadline.length)
-			newsDataFinal[coins[y]] = urlAndHeadline
-			// fs.writeFile('sorted.txt', String(urlAndHeadline), err => {
-			// 	if (err) {
-			// 	  console.error(err);
-			// 	}
-			// 	// file written successfully
-			//   });
-
-
-		
+			newsDataFinal[coins[y]] = urlAndHeadline		
 		}).catch(function (err) {
 			// There was an error
 			console.warn('Something went wrong.', err);
@@ -160,7 +148,6 @@ async function getSubscribersJSONConvertKit() {
 };
 
 async function sendEmail(newsOfEachCoin, subscriberDict){
-
 	//Interate through each of the news and format it into HTML, one line is one link, store in a dict
 	for (y in newsOfEachCoin){
 		htmlCode = ""
@@ -190,15 +177,13 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		userName = subscriberDict[x][1] //get users names
 		userNews = subscriberDict[x][0] //get users news prefs
 		totalNews = ""
-		emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><h1>New Block</h1><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
+		emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"https://raw.githubusercontent.com/FarzanAkhtar1/build-your-own-newsletter/main/newblock.png\" alt=\"New Block heading\" width: 100%;max-width: 600 height=100%:max-height: 300><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
         //emailHTML = emailHTML + '<p>Welcome to this edition of New Block - Your daily digest of crypto related news</p><br>'
 		for (y in userNews){ //for each of their preferences
 			try{
 				console.log(userNews[y])
 				emailHTML = emailHTML + "<p><b>" + userNews[y] + "</b><br>" + newsOfEachCoin[userNews[y]] + "</p><br>"				
 				//console.log(newsOfEachCoin[userNews[y]])
-				///////////////////to emailHTML add the user's preferences
-
 				//console.log(newsOfEachCoin[userNews])
 				//totalNews = totalNews + newsOfEachCoin[userNews[y]] //if their preference is in the dict, add it to their 'news'
 			}catch{};
@@ -206,20 +191,18 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 		
 		//console.log(totalNews)
 	
-        emailHTML = emailHTML +
-              '<p>Update your preferences ' +
-              '<a href=\"https://forms.gle/PugEcNjQtqpE4DCS9">here</a></p>' +
+        emailHTML = emailHTML + '</div><div class=\"footer\">' + 
               '<p>Want to get in touch? Reply directly to this email or find me on ' + 
-              '<a href=\"https://twitter.com/FarzanAkhtar1\">Twitter (Now X)</a></p>' +
-              '<p>Thanks to NewsNow for supporting us with the stories we feature.</p>' + //
+              '<a href=\"https://twitter.com/FarzanAkhtar1\">Xa</a></p>' +
+              '<p>Thanks to NewsNow for supporting us with the stories we feature.</p><br>' + //
               "<small>Want to update your preferences? Click " + 
               "<a href=\"https://forms.gle/s5Zz16keSqgQnj3y7\">here</a></small><br>" +
               "<small>Want to unsubscribe? Click " + 
-              "<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small>"
+              "<a href=\"https://forms.gle/HA4Faxt1tHNcvLD97\">here</a></small>" +
+			  '</p></div></div></body></html>'
 					
 		const msg = {
 			to: userEmail, // Change to your recipient
-			//to: userEmail, // Change to your recipient
 			from: process.env.SENDGRID_SENDER, // Change to your verified sender
 			subject: 'New Block - '+ emailDate,
 			text: 'New Block - '+ emailDate,
@@ -234,20 +217,6 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 			  console.error(error)
 			})
 	}
-	//Added sendgrid API key
-	//newsOfEachCoin should be a dictionary, where the key is the name of the crypto, and the value is an array of arrays where the array contains the link to the article and the headline
-
-	//Define email formatting  for sendgrid
-
-	// Pull all users, store their email
-		// For each user, pull their tags and their tags from ConvertKit can reused code from tagsflow.js
-	// Remove everything after the bracket (i.e., Bitcoin (BTC) -> Bitcoin) can use regex such as /(.*)/g
-	//https://api.convertkit.com/v3/subscribers?api_secret=<your_secret_api_key>
-	//For each user
-		//Read their tags
-		//Construct an email based on their tags (pull data from newsOfEachCoin)
-		//Send email
-
 };
 
 async function main(){
@@ -274,10 +243,4 @@ async function main(){
 	console.log(userInfos)
 	await sendEmail(newsLinks, userInfos)
 }
-//main()
-//getUnsubDataFromGoogleSheets()
-//unsubData = getUnsubDataFromGoogleSheets()
-
-
-
 main()

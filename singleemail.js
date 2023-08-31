@@ -113,7 +113,7 @@ async function pullNewsData(coins, tickers, urls){
 async function justMail(){
 	sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 	//emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"https://raw.githubusercontent.com/FarzanAkhtar1/build-your-own-newsletter/main/newblock.png\" alt=\"New Block heading\" width=\"600\" height=auto"><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
-	emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"https://raw.githubusercontent.com/FarzanAkhtar1/build-your-own-newsletter/main/newblock.jpg\" alt=\"New Block heading\" width=\"600\" height=auto"><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
+	emailHTML = '<!DOCTYPE html> <html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style>body, h1, p {margin: 0;padding: 0;}.email-container {width: 100%;max-width: 600px;margin: 0 auto;padding: 20px;font-family: Arial, sans-serif;}.header {text-align: center;padding: 20px 0;background-color: #f2f2f2;}.content {padding: 20px;background-color: #ffffff;}.footer {text-align: center;padding: 10px 0;background-color: #f2f2f2;}</style></head><body><div class=\"email-container\"><div class=\"header\"><img src=\"https://raw.githubusercontent.com/FarzanAkhtar1/build-your-own-newsletter/main/newblock.jpg\" alt=\"New Block heading\" width=600px height=300px"><h2>Your daily digest of blockchain headlines</h2></div><div class=\"content\">'
 	const msg = {
 		to: 'farzan.akhtar1@gmail.com', // Change to your recipient
 		//to: 'farzan-akhtar@outlook.com', // Change to your recipient
@@ -181,8 +181,8 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 
         emailHTML = emailHTML + '</div><div class=\"footer\">' + 
               '<p>Want to get in touch? Reply directly to this email or find me on ' + 
-              '<a href=\"https://twitter.com/FarzanAkhtar1\">Twitter (Now X)</a></p>' +
-              '<p>Thanks to NewsNow for supporting us with the stories we feature.</p>' + //
+              '<a href=\"https://twitter.com/FarzanAkhtar1\">Xa</a></p>' +
+              '<p>Thanks to NewsNow for supporting us with the stories we feature.</p><br>' + //
               "<small>Want to update your preferences? Click " + 
               "<a href=\"https://forms.gle/s5Zz16keSqgQnj3y7\">here</a></small><br>" +
               "<small>Want to unsubscribe? Click " + 
@@ -227,30 +227,30 @@ async function sendEmail(newsOfEachCoin, subscriberDict){
 async function main(){
 	justMail()
 
-// 	//userInfos = await getSubscribersJSONConvertKit()
-// 	console.log("-----")
-// 	//console.log(userInfos)
-// 	console.log("-----")
+ 	// //userInfos = await getSubscribersJSONConvertKit()
+ 	// console.log("-----")
+ 	// //console.log(userInfos)
+ 	// console.log("-----")
 	
-// 	names = ['Bitcoin','Solana', 'Algorand', 'Ripple', 'Cardano', 'Polygon', 'Stellar', "Ethereum"]
-// 	ticker = ['BTC', 'SOL', 'ALGO', 'XRP','ADA','MATIC', 'XLM', 'ETH']
-// 	urls = ["https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Bitcoin?type=ln",
-// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Solana+%28SOL%29?type=ln",
-// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Algorand+%28ALGO%29?type=ln",
-// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ripple?type=ln",
-// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Cardano+%28ADA%29?type=ln",
-// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Polygon+%28MATIC%29?type=ln",
-// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Stellar+%28XLM%29?type=ln",
-// 			"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ethereum+%28ETH%29?type=ln"
-// 			]
-// 	newsLinks = await pullNewsData(names, ticker, urls)
-// 	console.log("-----")
-// 	//console.log(newsLinks)
-// 	console.log("-----")
-//     userInfos = {
-//                     "1":[['Algorand', 'Bitcoin','Cardano',  'Ethereum','Polygon',  'Ripple','Solana',   'Stellar'],'Farzan',	'farzan-akhtar@outlook.com']
-//                     }
-// 	await sendEmail(newsLinks, userInfos)
+ 	// names = ['Bitcoin','Solana', 'Algorand', 'Ripple', 'Cardano', 'Polygon', 'Stellar', "Ethereum"]
+ 	// ticker = ['BTC', 'SOL', 'ALGO', 'XRP','ADA','MATIC', 'XLM', 'ETH']
+ 	// urls = ["https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Bitcoin?type=ln",
+ 	// 		"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Solana+%28SOL%29?type=ln",
+ 	// 		"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Algorand+%28ALGO%29?type=ln",
+ 	// 		"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ripple?type=ln",
+ 	// 		"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Cardano+%28ADA%29?type=ln",
+ 	// 		"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Polygon+%28MATIC%29?type=ln",
+ 	// 		"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Stellar+%28XLM%29?type=ln",
+ 	// 		"https://www.newsnow.co.uk/h/Business+&+Finance/Cryptocurrencies/Ethereum+%28ETH%29?type=ln"
+ 	// 		]
+ 	// newsLinks = await pullNewsData(names, ticker, urls)
+ 	// console.log("-----")
+ 	// //console.log(newsLinks)
+ 	// console.log("-----")
+    //  userInfos = {
+    //                  "1":[['Algorand', 'Bitcoin','Cardano',  'Ethereum','Polygon',  'Ripple','Solana',   'Stellar'],'Farzan',	'farzan-akhtar@outlook.com']
+    //                  }
+ 	// await sendEmail(newsLinks, userInfos)
 }
 // //main()
 // //getUnsubDataFromGoogleSheets()
